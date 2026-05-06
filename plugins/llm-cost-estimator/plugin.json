@@ -1,0 +1,12 @@
+{
+  "name": "llm-cost-estimator",
+  "description": "Estimate input/output token cost of prompts across OpenAI models using tiktoken and live pricing from developers.openai.com.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Raja Aravapalli",
+    "email": "Raja.Aravapalli@microsoft.com",
+    "url": "https://rajamahesharavapalli.armtechlab.in/"
+  },
+  "skills": "skills/",
+  "agents": "agents/"
+}
