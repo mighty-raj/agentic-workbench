@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "llm-cost-estimator",
-      "source": "./llm-cost-estimator",
+      "source": "llm-cost-estimator",
       "description": "Estimate input/output token cost of prompts across OpenAI models using tiktoken and live pricing from developers.openai.com.",
       "version": "1.0.0",
       "author": {
