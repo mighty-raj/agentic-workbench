@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "agentic-workbench",
+  "description": "Agentic workbench: a curated set of agent plugins (skills, agents, hooks, MCP servers) for VS Code Copilot and Claude Code.",
+  "owner": {
+    "name": "Raja Aravapalli",
+    "email": "Raja.Aravapalli@microsoft.com"
+  },
+  "metadata": {
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "llm-cost-estimator",
+      "source": "./llm-cost-estimator",
+      "description": "Estimate input/output token cost of prompts across OpenAI models using tiktoken and live pricing from developers.openai.com.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Raja Aravapalli",
+        "email": "Raja.Aravapalli@microsoft.com"
+      },
+      "category": "ai",
+      "keywords": ["llm", "openai", "tokens", "tiktoken", "cost", "pricing"]
+    }
+  ]
+}
