@@ -24,6 +24,16 @@ These plugins follow the [VS Code agent plugin](https://code.visualstudio.com/do
 
 > The plugins live in subdirectories of this repo (`plugins/<plugin-name>/`), so each one is registered individually rather than via a single root-level `plugin.json`.
 
+### Installation options
+
+| #   | Method                                                                                  | Best for                                                      |
+| --- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| 1   | [Clone & register locally](#option-1--clone-and-register-as-local-plugins-recommended)  | Full control, offline use, active development *(recommended)* |
+| 2   | [Plugin marketplace](#option-2--add-this-repo-as-a-plugin-marketplace)                  | Discovering and managing plugins via the Extensions view      |
+| 3   | [Install from source](#option-3--install-a-single-plugin-from-source)                   | Quick one-off install of a single plugin                      |
+
+---
+
 ### Option 1 — Clone and register as local plugins (recommended)
 
 1. Clone this repository:
@@ -63,6 +73,8 @@ Then open the Extensions view, search for `@agentPlugins`, and install the plugi
 ### Option 3 — Install a single plugin from source
 
 You can also install directly from a Git URL using **Chat: Install Plugin From Source** (Command Palette) and pointing it at this repository. See [Install a plugin from source](https://code.visualstudio.com/docs/copilot/customization/agent-plugins#_install-a-plugin-from-source) for details.
+
+---
 
 For more on managing, updating, and disabling plugins, see the official VS Code docs: <https://code.visualstudio.com/docs/copilot/customization/agent-plugins#_configure-plugin-marketplaces>.
 

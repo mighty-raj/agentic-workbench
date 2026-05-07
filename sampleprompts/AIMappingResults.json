@@ -1,0 +1,4007 @@
+{
+  "source_schema": {
+    "id": "105ffcbf-e8f8-4b84-9db0-8671f3eb0e05",
+    "name": "105ffcbf-e8f8-4b84-9db0-8671f3eb0e05",
+    "tables": [
+      {
+        "id": "SampleData/Absence_Records",
+        "name": "Absence_Records",
+        "columns": [
+          {
+            "name": "Absence_Record_ID",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Absence_Records.Absence_Record_ID",
+            "sample_values": [
+              "WID-TO-000001",
+              "WID-TO-000002",
+              "WID-TO-000003",
+              "WID-TO-000004",
+              "WID-TO-000005",
+              "WID-TO-000006",
+              "WID-TO-000007",
+              "WID-TO-000008",
+              "WID-TO-000009",
+              "WID-TO-000010"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Personnel_Reference_ID",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Absence_Records.Personnel_Reference_ID",
+            "sample_values": [
+              "WID-EMP-000086",
+              "WID-EMP-000027",
+              "WID-EMP-000050",
+              "WID-EMP-000071",
+              "WID-EMP-000097",
+              "WID-EMP-000024",
+              "WID-EMP-000001",
+              "WID-EMP-000085",
+              "WID-EMP-000021",
+              "WID-EMP-000028"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Staff_Member_ID",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Absence_Records.Staff_Member_ID",
+            "sample_values": [
+              "EMP00008",
+              "EMP00097",
+              "EMP00031",
+              "EMP00007",
+              "EMP00076",
+              "EMP00023",
+              "EMP00043",
+              "EMP00039",
+              "EMP00054",
+              "EMP00079"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Absence_Classification",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Absence_Records.Absence_Classification",
+            "sample_values": [
+              "Medical_Leave",
+              "Compassionate_Leave",
+              "Annual_Leave",
+              "Civic_Duty",
+              "Parental_Leave",
+              "Personal_Day"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Commencement_Date",
+            "data_type": "datetime",
+            "nullable": true,
+            "description": "Absence_Records.Commencement_Date",
+            "sample_values": [
+              "2025-01-16",
+              "2025-05-17",
+              "2025-03-19",
+              "2025-05-20",
+              "2025-11-20",
+              "2025-11-14",
+              "2025-10-18",
+              "2025-01-13",
+              "2025-10-13",
+              "2025-10-26"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Conclusion_Date",
+            "data_type": "datetime",
+            "nullable": true,
+            "description": "Absence_Records.Conclusion_Date",
+            "sample_values": [
+              "2025-01-18",
+              "2025-05-27",
+              "2025-04-06",
+              "2025-05-31",
+              "2025-12-02",
+              "2025-11-17",
+              "2025-10-27",
+              "2025-02-02",
+              "2025-11-04",
+              "2025-10-23"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Duration_In_Days",
+            "data_type": "integer",
+            "nullable": true,
+            "description": "Absence_Records.Duration_In_Days",
+            "sample_values": [
+              "2",
+              "10",
+              "18",
+              "11",
+              "12",
+              "3",
+              "9",
+              "20",
+              "17",
+              "8"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Approval_State",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Absence_Records.Approval_State",
+            "sample_values": [
+              "Declined",
+              "Authorized",
+              "Under_Review",
+              "Withdrawn"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Submission_Date",
+            "data_type": "datetime",
+            "nullable": true,
+            "description": "Absence_Records.Submission_Date",
+            "sample_values": [
+              "2024-11-22",
+              "2025-04-18",
+              "2025-01-27",
+              "2025-05-01",
+              "2025-09-25",
+              "2025-10-14",
+              "2025-10-09",
+              "2025-01-02",
+              "2025-10-06",
+              "2025-09-01"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Authorizing_Manager_ID",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Absence_Records.Authorizing_Manager_ID",
+            "sample_values": [
+              "EMP00021",
+              "EMP00058",
+              "EMP00086",
+              "EMP00080",
+              "EMP00093",
+              "EMP00006",
+              "EMP00020",
+              "EMP00091",
+              "EMP00045",
+              "EMP00097"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Additional_Notes",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Absence_Records.Additional_Notes",
+            "sample_values": [
+              "Themselves customer arm almost anything.",
+              "Measure play buy air head order concern.",
+              "Necessary general study else store bed agree anyone.",
+              "Tax positive question especially important.",
+              "Listen car community.",
+              "Education source figure whom poor.",
+              "Surface learn design few minute perhaps.",
+              "No order executive range loss from.",
+              "Could military drive arm tax.",
+              "Return pretty young else."
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Paid_Leave_Indicator",
+            "data_type": "boolean",
+            "nullable": true,
+            "description": "Absence_Records.Paid_Leave_Indicator",
+            "sample_values": [
+              "False",
+              "True"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Available_Balance_Before",
+            "data_type": "decimal",
+            "nullable": true,
+            "description": "Absence_Records.Available_Balance_Before",
+            "sample_values": [
+              "11.264025186454575",
+              "23.48731200432125",
+              "14.688866216049757",
+              "25.749587048878613",
+              "16.2203730600748",
+              "11.605989882734889",
+              "6.27138602988067",
+              "28.924692940687592",
+              "21.583361911006925",
+              "7.868048785056631"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Available_Balance_After",
+            "data_type": "decimal",
+            "nullable": true,
+            "description": "Absence_Records.Available_Balance_After",
+            "sample_values": [
+              "20.98454536162928",
+              "21.621037130115063",
+              "23.917549250295668",
+              "22.787159426843466",
+              "24.586333089072042",
+              "4.0232212439153425",
+              "23.30954663927977",
+              "13.015157183292594",
+              "8.27666341528256",
+              "8.650182270569212"
+            ],
+            "synonyms": []
+          }
+        ],
+        "primary_key": null,
+        "foreign_keys": [],
+        "description": null
+      },
+      {
+        "id": "SampleData/Organizational_Units",
+        "name": "Organizational_Units",
+        "columns": [
+          {
+            "name": "Organizational_Unit_ID",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Organizational_Units.Organizational_Unit_ID",
+            "sample_values": [
+              "WID-ORG-000001",
+              "WID-ORG-000002",
+              "WID-ORG-000003",
+              "WID-ORG-000004",
+              "WID-ORG-000005",
+              "WID-ORG-000006",
+              "WID-ORG-000007",
+              "WID-ORG-000008",
+              "WID-ORG-000009",
+              "WID-ORG-000010"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Unit_Reference_Code",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Organizational_Units.Unit_Reference_Code",
+            "sample_values": [
+              "ORG-00001",
+              "ORG-00002",
+              "ORG-00003",
+              "ORG-00004",
+              "ORG-00005",
+              "ORG-00006",
+              "ORG-00007",
+              "ORG-00008",
+              "ORG-00009",
+              "ORG-00010"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Unit_Identifier",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Organizational_Units.Unit_Identifier",
+            "sample_values": [
+              "ORG0001",
+              "ORG0002",
+              "ORG0003",
+              "ORG0004",
+              "ORG0005",
+              "ORG0006",
+              "ORG0007",
+              "ORG0008",
+              "ORG0009",
+              "ORG0010"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Unit_Designation",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Organizational_Units.Unit_Designation",
+            "sample_values": [
+              "Turner-Stout",
+              "Information Technology",
+              "Financial Services",
+              "Key, Mendoza and Sanchez",
+              "Human Capital",
+              "Morris, Campbell and Owens",
+              "Legal Affairs",
+              "Sales Force",
+              "Owens-Lang",
+              "Wood Group"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Unit_Classification",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Organizational_Units.Unit_Classification",
+            "sample_values": [
+              "Operating_Division",
+              "Expense_Center",
+              "Business_Unit",
+              "Geographic_Region",
+              "Enterprise"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Parent_Unit_Reference",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Organizational_Units.Parent_Unit_Reference",
+            "sample_values": [
+              "WID-ORG-000001",
+              "WID-ORG-000002",
+              "WID-ORG-000003",
+              "WID-ORG-000004",
+              "WID-ORG-000005",
+              "WID-ORG-000007",
+              "WID-ORG-000006",
+              "WID-ORG-000009",
+              "WID-ORG-000014",
+              "WID-ORG-000011"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Supervising_Organization",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Organizational_Units.Supervising_Organization",
+            "sample_values": [
+              "ORG-00001",
+              "ORG-00007",
+              "ORG-00002",
+              "ORG-00008",
+              "ORG-00010",
+              "ORG-00011",
+              "ORG-00009",
+              "ORG-00019",
+              "ORG-00022",
+              "ORG-00021"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Unit_Manager_Reference",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Organizational_Units.Unit_Manager_Reference",
+            "sample_values": [
+              "EMP00053",
+              "EMP00085",
+              "EMP00042",
+              "EMP00025",
+              "EMP00071",
+              "EMP00091",
+              "EMP00060",
+              "EMP00062",
+              "EMP00036",
+              "EMP00020"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Financial_Center_Code",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Organizational_Units.Financial_Center_Code",
+            "sample_values": [
+              "CC-6460",
+              "CC-7561",
+              "CC-2899",
+              "CC-9494",
+              "CC-3146",
+              "CC-3594",
+              "CC-2924",
+              "CC-8736",
+              "CC-7798",
+              "CC-8316"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Transaction_Currency",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Organizational_Units.Transaction_Currency",
+            "sample_values": [
+              "Canadian Dollar",
+              "Australian Dollar",
+              "Euro",
+              "British Pound",
+              "Indian Rupee",
+              "US Dollar"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Physical_Location_ID",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Organizational_Units.Physical_Location_ID",
+            "sample_values": [
+              "LOC-004",
+              "LOC-018",
+              "LOC-013",
+              "LOC-020",
+              "LOC-015",
+              "LOC-005",
+              "LOC-017",
+              "LOC-016",
+              "LOC-008",
+              "LOC-009"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Unit_Subclassification",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Organizational_Units.Unit_Subclassification",
+            "sample_values": [
+              "Operational_Function",
+              "Strategic_Business_Unit",
+              "Initiative",
+              "Project_Team"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Active_Status_Flag",
+            "data_type": "boolean",
+            "nullable": true,
+            "description": "Organizational_Units.Active_Status_Flag",
+            "sample_values": [
+              "True",
+              "False"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Inception_Date",
+            "data_type": "datetime",
+            "nullable": true,
+            "description": "Organizational_Units.Inception_Date",
+            "sample_values": [
+              "2022-01-27",
+              "2021-12-19",
+              "2024-09-21",
+              "2024-01-15",
+              "2022-01-14",
+              "2025-08-04",
+              "2024-04-05",
+              "2022-07-23",
+              "2022-10-25",
+              "2024-08-17"
+            ],
+            "synonyms": []
+          }
+        ],
+        "primary_key": null,
+        "foreign_keys": [],
+        "description": null
+      },
+      {
+        "id": "SampleData/Personnel_Records",
+        "name": "Personnel_Records",
+        "columns": [
+          {
+            "name": "Personnel_Identifier",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Personnel_Records.Personnel_Identifier",
+            "sample_values": [
+              "WID-EMP-000001",
+              "WID-EMP-000002",
+              "WID-EMP-000003",
+              "WID-EMP-000004",
+              "WID-EMP-000005",
+              "WID-EMP-000006",
+              "WID-EMP-000007",
+              "WID-EMP-000008",
+              "WID-EMP-000009",
+              "WID-EMP-000010"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Staff_Number",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Personnel_Records.Staff_Number",
+            "sample_values": [
+              "EMP00001",
+              "EMP00002",
+              "EMP00003",
+              "EMP00004",
+              "EMP00005",
+              "EMP00006",
+              "EMP00007",
+              "EMP00008",
+              "EMP00009",
+              "EMP00010"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Date_Of_Birth",
+            "data_type": "datetime",
+            "nullable": true,
+            "description": "Personnel_Records.Date_Of_Birth",
+            "sample_values": [
+              "1961-02-11",
+              "1979-10-13",
+              "1976-09-02",
+              "1990-02-03",
+              "1980-03-16",
+              "2002-09-29",
+              "2000-08-08",
+              "1983-03-27",
+              "1962-12-25",
+              "1962-05-26"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Commencement_Date",
+            "data_type": "datetime",
+            "nullable": true,
+            "description": "Personnel_Records.Commencement_Date",
+            "sample_values": [
+              "2022-05-30",
+              "2020-03-18",
+              "2025-09-30",
+              "2023-01-13",
+              "2025-02-28",
+              "2021-04-22",
+              "2025-07-21",
+              "2017-09-01",
+              "2016-08-09",
+              "2024-08-27"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Initial_Employment_Date",
+            "data_type": "datetime",
+            "nullable": true,
+            "description": "Personnel_Records.Initial_Employment_Date",
+            "sample_values": [
+              "2022-05-30",
+              "2020-03-18",
+              "2025-09-30",
+              "2023-01-13",
+              "2025-02-28",
+              "2021-04-22",
+              "2025-07-21",
+              "2017-09-01",
+              "2016-08-09",
+              "2024-08-27"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Current_Status",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Personnel_Records.Current_Status",
+            "sample_values": [
+              "Employed",
+              "On_Leave",
+              "Separated",
+              "Inactive"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Engagement_Type",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Personnel_Records.Engagement_Type",
+            "sample_values": [
+              "Permanent",
+              "Interim",
+              "Contractor",
+              "Contingent"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Position_Title",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Personnel_Records.Position_Title",
+            "sample_values": [
+              "Legal Advisor",
+              "Software Developer",
+              "Product Owner",
+              "Engineering Lead",
+              "Operations Chief",
+              "Financial Comptroller",
+              "Client Success Lead",
+              "Marketing Director",
+              "Division Head",
+              "Senior Code Engineer"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Business_Unit",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Personnel_Records.Business_Unit",
+            "sample_values": [
+              "Brand Marketing",
+              "Human Capital",
+              "Client Relations",
+              "Sales Force",
+              "Business Operations",
+              "Legal Affairs",
+              "Financial Services",
+              "Engineering Division",
+              "Product Development",
+              "Information Technology"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Supervisor_Reference",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Personnel_Records.Supervisor_Reference",
+            "sample_values": [
+              "EMP00001",
+              "EMP00002",
+              "EMP00005",
+              "EMP00003",
+              "EMP00006",
+              "EMP00007",
+              "EMP00009",
+              "EMP00008",
+              "EMP00013",
+              "EMP00012"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Professional_Title",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Personnel_Records.Professional_Title",
+            "sample_values": [
+              "Product Owner",
+              "Vice President Engineering",
+              "Senior Code Engineer",
+              "Legal Advisor",
+              "Division Head",
+              "People Manager",
+              "Marketing Director",
+              "Sales Executive",
+              "Client Success Lead",
+              "Data Scientist"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Expense_Center_Code",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Personnel_Records.Expense_Center_Code",
+            "sample_values": [
+              "CC-4657",
+              "CC-4811",
+              "CC-1106",
+              "CC-2519",
+              "CC-8527",
+              "CC-6925",
+              "CC-4814",
+              "CC-6820",
+              "CC-7216",
+              "CC-5386"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Workplace_Location_ID",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Personnel_Records.Workplace_Location_ID",
+            "sample_values": [
+              "LOC-005",
+              "LOC-017",
+              "LOC-006",
+              "LOC-013",
+              "LOC-018",
+              "LOC-019",
+              "LOC-004",
+              "LOC-007",
+              "LOC-009",
+              "LOC-003"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Working_Schedule",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Personnel_Records.Working_Schedule",
+            "sample_values": [
+              "Full_Time_Equivalent",
+              "Part_Time_Equivalent"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Tenure_Years",
+            "data_type": "decimal",
+            "nullable": true,
+            "description": "Personnel_Records.Tenure_Years",
+            "sample_values": [
+              "3.6084873374401094",
+              "5.806981519507187",
+              "0.27104722792607805",
+              "2.9842573579739904",
+              "0.8569472963723477",
+              "4.7118412046543465",
+              "0.4654346338124572",
+              "8.350444900752908",
+              "9.412731006160165",
+              "1.3634496919917864"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Current_Age",
+            "data_type": "decimal",
+            "nullable": true,
+            "description": "Personnel_Records.Current_Age",
+            "sample_values": [
+              "64.9034907597536",
+              "46.23682409308692",
+              "49.347022587268995",
+              "35.92607802874743",
+              "45.81245722108145",
+              "23.274469541409992",
+              "25.415468856947296",
+              "42.784394250513344",
+              "63.0362765229295",
+              "63.619438740588635"
+            ],
+            "synonyms": []
+          }
+        ],
+        "primary_key": null,
+        "foreign_keys": [],
+        "description": null
+      },
+      {
+        "id": "SampleData/Remuneration_Records",
+        "name": "Remuneration_Records",
+        "columns": [
+          {
+            "name": "Remuneration_Record_ID",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Remuneration_Records.Remuneration_Record_ID",
+            "sample_values": [
+              "WID-COMP-000001",
+              "WID-COMP-000002",
+              "WID-COMP-000003",
+              "WID-COMP-000004",
+              "WID-COMP-000005",
+              "WID-COMP-000006",
+              "WID-COMP-000007",
+              "WID-COMP-000008",
+              "WID-COMP-000009",
+              "WID-COMP-000010"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Personnel_Reference_ID",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Remuneration_Records.Personnel_Reference_ID",
+            "sample_values": [
+              "WID-EMP-000001",
+              "WID-EMP-000002",
+              "WID-EMP-000003",
+              "WID-EMP-000004",
+              "WID-EMP-000005",
+              "WID-EMP-000006",
+              "WID-EMP-000007",
+              "WID-EMP-000008",
+              "WID-EMP-000009",
+              "WID-EMP-000010"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Staff_Identifier",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Remuneration_Records.Staff_Identifier",
+            "sample_values": [
+              "EMP00001",
+              "EMP00002",
+              "EMP00003",
+              "EMP00004",
+              "EMP00005",
+              "EMP00006",
+              "EMP00007",
+              "EMP00008",
+              "EMP00009",
+              "EMP00010"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Foundation_Salary",
+            "data_type": "integer",
+            "nullable": true,
+            "description": "Remuneration_Records.Foundation_Salary",
+            "sample_values": [
+              "60417",
+              "161921",
+              "245653",
+              "41671",
+              "212308",
+              "113354",
+              "74999",
+              "122577",
+              "67697",
+              "109470"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Payment_Currency",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Remuneration_Records.Payment_Currency",
+            "sample_values": [
+              "Euro",
+              "Australian Dollar",
+              "Canadian Dollar",
+              "Indian Rupee",
+              "US Dollar",
+              "British Pound"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Disbursement_Frequency",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Remuneration_Records.Disbursement_Frequency",
+            "sample_values": [
+              "Fortnightly_Cycle",
+              "Weekly_Cycle",
+              "Monthly_Cycle"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Performance_Bonus_Amount",
+            "data_type": "integer",
+            "nullable": true,
+            "description": "Remuneration_Records.Performance_Bonus_Amount",
+            "sample_values": [
+              "0",
+              "20361",
+              "60807",
+              "6812",
+              "27070",
+              "21381",
+              "13320",
+              "23313",
+              "36052",
+              "11869"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Incentive_Percentage",
+            "data_type": "integer",
+            "nullable": true,
+            "description": "Remuneration_Records.Incentive_Percentage",
+            "sample_values": [
+              "1",
+              "17",
+              "15",
+              "26",
+              "0",
+              "11",
+              "13",
+              "8",
+              "9",
+              "21"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Equity_Grant_Value",
+            "data_type": "integer",
+            "nullable": true,
+            "description": "Remuneration_Records.Equity_Grant_Value",
+            "sample_values": [
+              "0",
+              "12807",
+              "27513",
+              "45670",
+              "18411",
+              "32258",
+              "14476",
+              "19327",
+              "6101",
+              "30863"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Sales_Commission_Eligible",
+            "data_type": "boolean",
+            "nullable": true,
+            "description": "Remuneration_Records.Sales_Commission_Eligible",
+            "sample_values": [
+              "False",
+              "True"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Aggregate_Compensation",
+            "data_type": "integer",
+            "nullable": true,
+            "description": "Remuneration_Records.Aggregate_Compensation",
+            "sample_values": [
+              "61921",
+              "188223",
+              "363675",
+              "52648",
+              "220158",
+              "118918",
+              "90516",
+              "131497",
+              "97313",
+              "112113"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Implementation_Date",
+            "data_type": "datetime",
+            "nullable": true,
+            "description": "Remuneration_Records.Implementation_Date",
+            "sample_values": [
+              "2025-02-14",
+              "2025-09-12",
+              "2025-08-27",
+              "2024-11-08",
+              "2025-02-01",
+              "2025-10-01",
+              "2024-12-19",
+              "2025-10-12",
+              "2024-12-20",
+              "2024-03-04"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Adjustment_Rationale",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Remuneration_Records.Adjustment_Rationale",
+            "sample_values": [
+              "Initial_Offer",
+              "Market_Correction",
+              "Career_Advancement",
+              "Annual_Review"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Pay_Scale_Level",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Remuneration_Records.Pay_Scale_Level",
+            "sample_values": [
+              "Level_1",
+              "Level_5",
+              "Level_2",
+              "Level_7",
+              "Level_6",
+              "Level_3",
+              "Level_4"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Compensation_Range_Minimum",
+            "data_type": "integer",
+            "nullable": true,
+            "description": "Remuneration_Records.Compensation_Range_Minimum",
+            "sample_values": [
+              "48333",
+              "129536",
+              "196522",
+              "33336",
+              "169846",
+              "90683",
+              "59999",
+              "98061",
+              "54157",
+              "87576"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Compensation_Range_Maximum",
+            "data_type": "integer",
+            "nullable": true,
+            "description": "Remuneration_Records.Compensation_Range_Maximum",
+            "sample_values": [
+              "84583",
+              "226689",
+              "343914",
+              "58339",
+              "297231",
+              "158695",
+              "104998",
+              "171607",
+              "94775",
+              "153258"
+            ],
+            "synonyms": []
+          }
+        ],
+        "primary_key": null,
+        "foreign_keys": [],
+        "description": null
+      },
+      {
+        "id": "SampleData/Role_Definitions",
+        "name": "Role_Definitions",
+        "columns": [
+          {
+            "name": "Role_Identifier",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Role_Definitions.Role_Identifier",
+            "sample_values": [
+              "WID-POS-000001",
+              "WID-POS-000002",
+              "WID-POS-000003",
+              "WID-POS-000004",
+              "WID-POS-000005",
+              "WID-POS-000006",
+              "WID-POS-000007",
+              "WID-POS-000008",
+              "WID-POS-000009",
+              "WID-POS-000010"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Position_Reference_Number",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Role_Definitions.Position_Reference_Number",
+            "sample_values": [
+              "POS-00001",
+              "POS-00002",
+              "POS-00003",
+              "POS-00004",
+              "POS-00005",
+              "POS-00006",
+              "POS-00007",
+              "POS-00008",
+              "POS-00009",
+              "POS-00010"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Role_Designation",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Role_Definitions.Role_Designation",
+            "sample_values": [
+              "Legal Advisor",
+              "Vice President Engineering",
+              "Operations Chief",
+              "Client Success Lead",
+              "Software Developer",
+              "Division Head",
+              "Engineering Lead",
+              "People Manager",
+              "Senior Code Engineer",
+              "Sales Executive"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "External_Job_Title",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Role_Definitions.External_Job_Title",
+            "sample_values": [
+              "Marketing Director",
+              "Client Success Lead",
+              "Vice President Engineering",
+              "People Manager",
+              "Engineering Lead",
+              "Product Owner",
+              "Operations Chief",
+              "Software Developer",
+              "Legal Advisor",
+              "Data Scientist"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Occupational_Group",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Role_Definitions.Occupational_Group",
+            "sample_values": [
+              "Operational",
+              "Financial",
+              "Commercial",
+              "Technical",
+              "Leadership"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Career_Stage",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Role_Definitions.Career_Stage",
+            "sample_values": [
+              "Management",
+              "Junior",
+              "Senior_Level",
+              "C_Suite",
+              "Mid_Level",
+              "Principal",
+              "Executive"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Owning_Organization_ID",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Role_Definitions.Owning_Organization_ID",
+            "sample_values": [
+              "WID-ORG-000034",
+              "WID-ORG-000022",
+              "WID-ORG-000020",
+              "WID-ORG-000009",
+              "WID-ORG-000014",
+              "WID-ORG-000050",
+              "WID-ORG-000045",
+              "WID-ORG-000040",
+              "WID-ORG-000037",
+              "WID-ORG-000017"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Assignment_Location_ID",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Role_Definitions.Assignment_Location_ID",
+            "sample_values": [
+              "WID-LOC-000020",
+              "WID-LOC-000004",
+              "WID-LOC-000021",
+              "WID-LOC-000022",
+              "WID-LOC-000011",
+              "WID-LOC-000018",
+              "WID-LOC-000025",
+              "WID-LOC-000010",
+              "WID-LOC-000015",
+              "WID-LOC-000002"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Responsible_Organization",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Role_Definitions.Responsible_Organization",
+            "sample_values": [
+              "ORG-00011",
+              "ORG-00036",
+              "ORG-00045",
+              "ORG-00050",
+              "ORG-00048",
+              "ORG-00040",
+              "ORG-00049",
+              "ORG-00030",
+              "ORG-00042",
+              "ORG-00010"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Incumbent_Worker_ID",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Role_Definitions.Incumbent_Worker_ID",
+            "sample_values": [
+              "WID-EMP-000037",
+              "WID-EMP-000017",
+              "WID-EMP-000095",
+              "WID-EMP-000029",
+              "WID-EMP-000005",
+              "WID-EMP-000022",
+              "WID-EMP-000058",
+              "WID-EMP-000100",
+              "WID-EMP-000048",
+              "WID-EMP-000012"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Role_Occupancy_Status",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Role_Definitions.Role_Occupancy_Status",
+            "sample_values": [
+              "Available",
+              "Held",
+              "Occupied"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Mission_Critical_Flag",
+            "data_type": "boolean",
+            "nullable": true,
+            "description": "Role_Definitions.Mission_Critical_Flag",
+            "sample_values": [
+              "False",
+              "True"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Activation_Date",
+            "data_type": "datetime",
+            "nullable": true,
+            "description": "Role_Definitions.Activation_Date",
+            "sample_values": [
+              "2023-04-15",
+              "2023-09-18",
+              "2023-09-03",
+              "2024-08-05",
+              "2023-01-07",
+              "2025-10-09",
+              "2023-08-15",
+              "2023-05-30",
+              "2025-03-02",
+              "2025-07-20"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Full_Time_Equivalent_Value",
+            "data_type": "decimal",
+            "nullable": true,
+            "description": "Role_Definitions.Full_Time_Equivalent_Value",
+            "sample_values": [
+              "0.5",
+              "0.25",
+              "1.0",
+              "0.8"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Schedule_Classification",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Role_Definitions.Schedule_Classification",
+            "sample_values": [
+              "Regular_Hours",
+              "Reduced_Hours"
+            ],
+            "synonyms": []
+          }
+        ],
+        "primary_key": null,
+        "foreign_keys": [],
+        "description": null
+      },
+      {
+        "id": "SampleData/Workers",
+        "name": "Workers",
+        "columns": [
+          {
+            "name": "Worker_ID",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workers.Worker_ID",
+            "sample_values": [
+              "WID-EMP-000001",
+              "WID-EMP-000002",
+              "WID-EMP-000003",
+              "WID-EMP-000004",
+              "WID-EMP-000005",
+              "WID-EMP-000006",
+              "WID-EMP-000007",
+              "WID-EMP-000008",
+              "WID-EMP-000009",
+              "WID-EMP-000010"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Employee_ID",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workers.Employee_ID",
+            "sample_values": [
+              "EMP00001",
+              "EMP00002",
+              "EMP00003",
+              "EMP00004",
+              "EMP00005",
+              "EMP00006",
+              "EMP00007",
+              "EMP00008",
+              "EMP00009",
+              "EMP00010"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "First_Name",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workers.First_Name",
+            "sample_values": [
+              "Joshua",
+              "Andrea",
+              "Charles",
+              "Joseph",
+              "Michelle",
+              "Samantha",
+              "Catherine",
+              "Anthony",
+              "Denise",
+              "Corey"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Last_Name",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workers.Last_Name",
+            "sample_values": [
+              "Walker",
+              "Booth",
+              "Calderon",
+              "Reid",
+              "Wright",
+              "Smith",
+              "George",
+              "Brandt",
+              "Rivera",
+              "Lucas"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Email",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workers.Email",
+            "sample_values": [
+              "rhodespatricia@example.org",
+              "helenpeterson@example.org",
+              "barbara10@example.net",
+              "frankgray@example.net",
+              "julie69@example.com",
+              "maldonadoamanda@example.com",
+              "xsmith@example.com",
+              "jenniferross@example.net",
+              "joshuawashington@example.net",
+              "powellmatthew@example.org"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Phone",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workers.Phone",
+            "sample_values": [
+              "001-260-501-3389",
+              "651.216.1559",
+              "441.731.6475",
+              "001-783-550-3056x413",
+              "(332)887-1012x269",
+              "001-551-446-2704x82814",
+              "403.491.1718",
+              "+1-557-587-1331x5098",
+              "(399)873-7631",
+              "933.587.2624"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Birth_Date",
+            "data_type": "datetime",
+            "nullable": true,
+            "description": "Workers.Birth_Date",
+            "sample_values": [
+              "1961-02-11",
+              "1979-10-13",
+              "1976-09-02",
+              "1990-02-03",
+              "1980-03-16",
+              "2002-09-29",
+              "2000-08-08",
+              "1983-03-27",
+              "1962-12-25",
+              "1962-05-26"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Hire_Date",
+            "data_type": "datetime",
+            "nullable": true,
+            "description": "Workers.Hire_Date",
+            "sample_values": [
+              "2022-05-30",
+              "2020-03-18",
+              "2025-09-30",
+              "2023-01-13",
+              "2025-02-28",
+              "2021-04-22",
+              "2025-07-21",
+              "2017-09-01",
+              "2016-08-09",
+              "2024-08-27"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Original_Hire_Date",
+            "data_type": "datetime",
+            "nullable": true,
+            "description": "Workers.Original_Hire_Date",
+            "sample_values": [
+              "2022-05-30",
+              "2020-03-18",
+              "2025-09-30",
+              "2023-01-13",
+              "2025-02-28",
+              "2021-04-22",
+              "2025-07-21",
+              "2017-09-01",
+              "2016-08-09",
+              "2024-08-27"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Employment_Status",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workers.Employment_Status",
+            "sample_values": [
+              "Active",
+              "Leave",
+              "Terminated",
+              "Suspended"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Employment_Type",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workers.Employment_Type",
+            "sample_values": [
+              "Full_Time",
+              "Temporary",
+              "Contract",
+              "Part_Time"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Job_Title",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workers.Job_Title",
+            "sample_values": [
+              "Legal Counsel",
+              "Software Engineer",
+              "Product Manager",
+              "Engineering Manager",
+              "Operations Manager",
+              "Financial Analyst",
+              "Customer Success Manager",
+              "Marketing Manager",
+              "Director",
+              "Senior Software Engineer"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Department",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workers.Department",
+            "sample_values": [
+              "Marketing",
+              "Human Resources",
+              "Customer Service",
+              "Sales",
+              "Operations",
+              "Legal",
+              "Finance",
+              "Engineering",
+              "Product Management",
+              "IT"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Manager_ID",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workers.Manager_ID",
+            "sample_values": [
+              "EMP00001",
+              "EMP00002",
+              "EMP00005",
+              "EMP00003",
+              "EMP00006",
+              "EMP00007",
+              "EMP00009",
+              "EMP00008",
+              "EMP00013",
+              "EMP00012"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Work_Email",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workers.Work_Email",
+            "sample_values": [
+              "jennifer.miles@company.com",
+              "jessica.herrera@company.com",
+              "michael.santiago@company.com",
+              "diana.foster@company.com",
+              "patrick.ferrell@company.com",
+              "nathaniel.martin@company.com",
+              "donna.arroyo@company.com",
+              "adrian.zimmerman@company.com",
+              "michael.jenkins@company.com",
+              "nancy.jones@company.com"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Business_Title",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workers.Business_Title",
+            "sample_values": [
+              "Product Manager",
+              "VP Engineering",
+              "Senior Software Engineer",
+              "Legal Counsel",
+              "Director",
+              "HR Manager",
+              "Marketing Manager",
+              "Sales Representative",
+              "Customer Success Manager",
+              "Data Analyst"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Cost_Center",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workers.Cost_Center",
+            "sample_values": [
+              "CC-4657",
+              "CC-4811",
+              "CC-1106",
+              "CC-2519",
+              "CC-8527",
+              "CC-6925",
+              "CC-4814",
+              "CC-6820",
+              "CC-7216",
+              "CC-5386"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Location_ID",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workers.Location_ID",
+            "sample_values": [
+              "LOC-005",
+              "LOC-017",
+              "LOC-006",
+              "LOC-013",
+              "LOC-018",
+              "LOC-019",
+              "LOC-004",
+              "LOC-007",
+              "LOC-009",
+              "LOC-003"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Time_Type",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workers.Time_Type",
+            "sample_values": [
+              "Full_Time",
+              "Part_Time"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Years_Of_Service",
+            "data_type": "decimal",
+            "nullable": true,
+            "description": "Workers.Years_Of_Service",
+            "sample_values": [
+              "3.6084873374401094",
+              "5.806981519507187",
+              "0.27104722792607805",
+              "2.9842573579739904",
+              "0.8569472963723477",
+              "4.7118412046543465",
+              "0.4654346338124572",
+              "8.350444900752908",
+              "9.412731006160165",
+              "1.3634496919917864"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Age",
+            "data_type": "decimal",
+            "nullable": true,
+            "description": "Workers.Age",
+            "sample_values": [
+              "64.9034907597536",
+              "46.23682409308692",
+              "49.347022587268995",
+              "35.92607802874743",
+              "45.81245722108145",
+              "23.274469541409992",
+              "25.415468856947296",
+              "42.784394250513344",
+              "63.0362765229295",
+              "63.619438740588635"
+            ],
+            "synonyms": []
+          }
+        ],
+        "primary_key": null,
+        "foreign_keys": [],
+        "description": null
+      },
+      {
+        "id": "SampleData/Workplace_Sites",
+        "name": "Workplace_Sites",
+        "columns": [
+          {
+            "name": "Site_Identifier",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workplace_Sites.Site_Identifier",
+            "sample_values": [
+              "WID-LOC-000001",
+              "WID-LOC-000002",
+              "WID-LOC-000003",
+              "WID-LOC-000004",
+              "WID-LOC-000005",
+              "WID-LOC-000006",
+              "WID-LOC-000007",
+              "WID-LOC-000008",
+              "WID-LOC-000009",
+              "WID-LOC-000010"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Facility_Reference_Code",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workplace_Sites.Facility_Reference_Code",
+            "sample_values": [
+              "LOC-001",
+              "LOC-002",
+              "LOC-003",
+              "LOC-004",
+              "LOC-005",
+              "LOC-006",
+              "LOC-007",
+              "LOC-008",
+              "LOC-009",
+              "LOC-010"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Facility_Designation",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workplace_Sites.Facility_Designation",
+            "sample_values": [
+              "North Richardfurt Facility",
+              "Camposberg Facility",
+              "North Josephfurt Facility",
+              "Smithchester Facility",
+              "Malikborough Facility",
+              "South Vickifort Facility",
+              "West Whitney Facility",
+              "Hallfurt Facility",
+              "Michaelmouth Facility",
+              "East Leonard Facility"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Facility_Category",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workplace_Sites.Facility_Category",
+            "sample_values": [
+              "Flexible",
+              "Satellite_Office",
+              "Workplace",
+              "Corporate_HQ",
+              "Virtual"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Street_Address_Line_1",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workplace_Sites.Street_Address_Line_1",
+            "sample_values": [
+              "02176 Knight Walks Apt. 803",
+              "501 Hall Club",
+              "655 Christopher Inlet",
+              "83982 Jackson Grove Suite 472",
+              "2654 Faulkner Tunnel Apt. 564",
+              "868 Krystal Lake Apt. 135",
+              "46112 Collins Motorway Apt. 875",
+              "66093 Vargas Loaf",
+              "499 Emily Island",
+              "050 Taylor Via Suite 887"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Street_Address_Line_2",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workplace_Sites.Street_Address_Line_2",
+            "sample_values": [
+              "Apt. 974",
+              "Apt. 264",
+              "Apt. 640",
+              "Apt. 236",
+              "Apt. 965"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Municipality",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workplace_Sites.Municipality",
+            "sample_values": [
+              "North Gabrielleview",
+              "Cassiefurt",
+              "Wardview",
+              "Evansland",
+              "Diazshire",
+              "Lake Cheyenne",
+              "Davismouth",
+              "Lake Jasonview",
+              "East Kevinburgh",
+              "Cohenchester"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Administrative_Region",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workplace_Sites.Administrative_Region",
+            "sample_values": [
+              "Ohio",
+              "Illinois",
+              "Oregon",
+              "Wisconsin",
+              "Mississippi",
+              "Indiana",
+              "Tennessee",
+              "Wyoming",
+              "Minnesota",
+              "Missouri"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Postal_Identifier",
+            "data_type": "integer",
+            "nullable": true,
+            "description": "Workplace_Sites.Postal_Identifier",
+            "sample_values": [
+              "74361",
+              "43279",
+              "13900",
+              "47834",
+              "78125",
+              "85046",
+              "42301",
+              "92744",
+              "91391",
+              "93580"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Nation",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workplace_Sites.Nation",
+            "sample_values": [
+              "Canada",
+              "France",
+              "India",
+              "Germany",
+              "Australia",
+              "United States",
+              "United Kingdom"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Nation_Code",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workplace_Sites.Nation_Code",
+            "sample_values": [
+              "KM",
+              "AT",
+              "CO",
+              "ID",
+              "ST",
+              "GD",
+              "BJ",
+              "BI",
+              "CV",
+              "PA"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Geographic_Latitude",
+            "data_type": "decimal",
+            "nullable": true,
+            "description": "Workplace_Sites.Geographic_Latitude",
+            "sample_values": [
+              "-81.1679945",
+              "80.2210835",
+              "-66.5663275",
+              "-23.806484",
+              "-41.701157",
+              "83.6089155",
+              "-9.3984735",
+              "64.980649",
+              "47.123506",
+              "41.1842775"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Geographic_Longitude",
+            "data_type": "decimal",
+            "nullable": true,
+            "description": "Workplace_Sites.Geographic_Longitude",
+            "sample_values": [
+              "-83.709787",
+              "-33.258671",
+              "-79.394801",
+              "155.562405",
+              "115.332236",
+              "34.54314",
+              "-156.01097",
+              "-125.372288",
+              "28.554628",
+              "-90.206467"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Local_Time_Zone",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workplace_Sites.Local_Time_Zone",
+            "sample_values": [
+              "Asia/Kuwait",
+              "Pacific/Port_Moresby",
+              "Pacific/Nauru",
+              "Asia/Riyadh",
+              "America/Argentina/Mendoza",
+              "Europe/London",
+              "America/St_Kitts",
+              "Africa/Mogadishu",
+              "Europe/Amsterdam",
+              "America/Nassau"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Primary_Location_Flag",
+            "data_type": "boolean",
+            "nullable": true,
+            "description": "Workplace_Sites.Primary_Location_Flag",
+            "sample_values": [
+              "True",
+              "False"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Operational_Status",
+            "data_type": "boolean",
+            "nullable": true,
+            "description": "Workplace_Sites.Operational_Status",
+            "sample_values": [
+              "True",
+              "False"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Structure_Name",
+            "data_type": "string",
+            "nullable": true,
+            "description": "Workplace_Sites.Structure_Name",
+            "sample_values": [
+              "Building G",
+              "Building E",
+              "Building J",
+              "Building K",
+              "Building I",
+              "Building H",
+              "Building C"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Level_Number",
+            "data_type": "decimal",
+            "nullable": true,
+            "description": "Workplace_Sites.Level_Number",
+            "sample_values": [
+              "19.0",
+              "3.0",
+              "2.0",
+              "8.0",
+              "17.0",
+              "5.0",
+              "7.0"
+            ],
+            "synonyms": []
+          }
+        ],
+        "primary_key": null,
+        "foreign_keys": [],
+        "description": null
+      }
+    ],
+    "relations": []
+  },
+  "target_schema": {
+    "id": null,
+    "name": "Work Force Insights",
+    "tables": [
+      {
+        "id": null,
+        "name": "Person",
+        "columns": [
+          {
+            "name": "EmployeeId",
+            "data_type": "string",
+            "nullable": false,
+            "description": "System-assigned employee number used for payroll and administrative purposes.",
+            "sample_values": [
+              "21001"
+            ],
+            "synonyms": [
+              "Employee Number"
+            ]
+          },
+          {
+            "name": "PersonId",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Email address of the employee.",
+            "sample_values": [
+              "jane.doe@company.com"
+            ],
+            "synonyms": [
+              "UserPrincipalName",
+              "UPN",
+              "WorkEmail"
+            ]
+          },
+          {
+            "name": "ManagerId",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Email address of the employee's direct manager.",
+            "sample_values": [
+              "john.smith@company.com"
+            ],
+            "synonyms": [
+              "Current Manager Email",
+              "ManagerEmail"
+            ]
+          },
+          {
+            "name": "PositionId",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Identifier of the position or job slot assigned to the employee.",
+            "sample_values": [
+              "P-00067"
+            ],
+            "synonyms": [
+              "PositionNumber",
+              "PositionNbr"
+            ]
+          },
+          {
+            "name": "EffectiveDate",
+            "data_type": "datetime",
+            "nullable": false,
+            "description": "Date when the current attribute value became effective.",
+            "sample_values": [
+              "2024-03-01T00:00:00"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "HireDate",
+            "data_type": "datetime",
+            "nullable": false,
+            "description": "Official date of hire for the employee.",
+            "sample_values": [
+              "2021-05-10T00:00:00"
+            ],
+            "synonyms": [
+              "DateOfHire",
+              "JoiningDate"
+            ]
+          },
+          {
+            "name": "SupervisorIndicator",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Indicates whether the employee is a supervisor.",
+            "sample_values": [
+              "Yes",
+              "No"
+            ],
+            "synonyms": [
+              "ManagerFlag",
+              "IsSupervisor"
+            ]
+          },
+          {
+            "name": "EmploymentType",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Contractual employment type.",
+            "sample_values": [
+              "Regular",
+              "Contractor"
+            ],
+            "synonyms": [
+              "JobType",
+              "ContractType"
+            ]
+          },
+          {
+            "name": "EmployeeProfession",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Profession category of the employee.",
+            "sample_values": [
+              "Software Development",
+              "Sales"
+            ],
+            "synonyms": [
+              "JobProfession",
+              "Occupation"
+            ]
+          },
+          {
+            "name": "CurrentEmploymentStatus",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Indicates if the employee is active, on leave, or terminated.",
+            "sample_values": [
+              "Active",
+              "Leave",
+              "Terminated"
+            ],
+            "synonyms": [
+              "EmploymentStatus",
+              "ActiveStatus"
+            ]
+          },
+          {
+            "name": "CountryOrRegion",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Country where the employee primarily works, using ISO 3166-1 alpha-3 code.",
+            "sample_values": [
+              "USA"
+            ],
+            "synonyms": [
+              "WorkCountry"
+            ]
+          },
+          {
+            "name": "RegionSummary",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Geographic region or state/province of the employee's work location.",
+            "sample_values": [
+              "Calif"
+            ],
+            "synonyms": [
+              "WorkRegion"
+            ]
+          },
+          {
+            "name": "CitySummary",
+            "data_type": "string",
+            "nullable": false,
+            "description": "City where the employee primarily works.",
+            "sample_values": [
+              "San Francisco"
+            ],
+            "synonyms": [
+              "WorkCity",
+              "CompanyOfficeCity"
+            ]
+          },
+          {
+            "name": "FirstName",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Employee's legal first name or given name.",
+            "sample_values": [
+              "Logan"
+            ],
+            "synonyms": [
+              "GivenName"
+            ]
+          },
+          {
+            "name": "MiddleName",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Employee's legal middle name.",
+            "sample_values": [],
+            "synonyms": []
+          },
+          {
+            "name": "LastName",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Employee's legal last name or family name.",
+            "sample_values": [
+              "McNeil"
+            ],
+            "synonyms": [
+              "Surname",
+              "FamilyName"
+            ]
+          },
+          {
+            "name": "FullName",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Employee's complete formatted name as displayed in the system.",
+            "sample_values": [
+              "Logan McNeil"
+            ],
+            "synonyms": [
+              "PreferredFullName"
+            ]
+          },
+          {
+            "name": "AssignedOfficeCity",
+            "data_type": "string",
+            "nullable": false,
+            "description": "City of the employee's assigned office location.",
+            "sample_values": [
+              "Redmond",
+              "New York"
+            ],
+            "synonyms": [
+              "OfficeCity"
+            ]
+          },
+          {
+            "name": "CompanyOfficeState",
+            "data_type": "string",
+            "nullable": false,
+            "description": "State or province of the employee's assigned company office.",
+            "sample_values": [
+              "Washington",
+              "California"
+            ],
+            "synonyms": [
+              "OfficeState"
+            ]
+          },
+          {
+            "name": "EmployeeJobTitle",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Employee's current job title as displayed in HR systems.",
+            "sample_values": [
+              "Software Engineer",
+              "Product Manager"
+            ],
+            "synonyms": [
+              "BusinessTitle",
+              "JobTitle"
+            ]
+          },
+          {
+            "name": "FunctionType",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Functional area or discipline the employee belongs to.",
+            "sample_values": [
+              "Engineering",
+              "Sales",
+              "Finance"
+            ],
+            "synonyms": [
+              "Function",
+              "JobFunction"
+            ]
+          },
+          {
+            "name": "StockLevel",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Employee's stock or equity compensation level.",
+            "sample_values": [
+              "30",
+              "45",
+              "58"
+            ],
+            "synonyms": [
+              "EquityLevel"
+            ]
+          },
+          {
+            "name": "WorkAnniversaryDate",
+            "data_type": "datetime",
+            "nullable": false,
+            "description": "Date of the employee's work anniversary or service milestone.",
+            "sample_values": [
+              "2020-06-15T00:00:00"
+            ],
+            "synonyms": [
+              "ServiceDate",
+              "AnniversaryDate"
+            ]
+          },
+          {
+            "name": "PayScaleArea",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Geographic pay scale area used for compensation benchmarking.",
+            "sample_values": [
+              "US-West",
+              "US-East",
+              "EMEA"
+            ],
+            "synonyms": [
+              "PayArea",
+              "CompensationZone"
+            ]
+          },
+          {
+            "name": "ReasonForChangeCode",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Code indicating the reason for the most recent HR transaction or status change.",
+            "sample_values": [
+              "Promotion",
+              "Transfer",
+              "Reorganization"
+            ],
+            "synonyms": [
+              "ChangeReasonCode",
+              "TransactionReason"
+            ]
+          },
+          {
+            "name": "ExpectedInOfficeDays",
+            "data_type": "integer",
+            "nullable": false,
+            "description": "Number of days per week the employee is expected to work in the office.",
+            "sample_values": [
+              "3",
+              "5"
+            ],
+            "synonyms": [
+              "RequiredOfficeDays"
+            ]
+          },
+          {
+            "name": "ApprovedInOfficeDays",
+            "data_type": "integer",
+            "nullable": false,
+            "description": "Number of days per week the employee is approved to work in the office.",
+            "sample_values": [
+              "2",
+              "3"
+            ],
+            "synonyms": [
+              "ActualOfficeDays"
+            ]
+          },
+          {
+            "name": "WorkSiteDesignation",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Classification of the employee's work site arrangement.",
+            "sample_values": [
+              "Hybrid",
+              "Remote",
+              "OnSite"
+            ],
+            "synonyms": [
+              "WorkArrangement",
+              "RemoteStatus"
+            ]
+          },
+          {
+            "name": "StockLevelCompressionInd",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Indicates whether the employee's stock level is compressed relative to their manager.",
+            "sample_values": [
+              "True",
+              "False",
+              "Unassigned"
+            ],
+            "synonyms": [
+              "CompressionIndicator"
+            ]
+          },
+          {
+            "name": "OrgDepth",
+            "data_type": "integer",
+            "nullable": false,
+            "description": "Number of hierarchical levels from the employee to the top of the reporting chain.",
+            "sample_values": [
+              "3",
+              "5",
+              "7"
+            ],
+            "synonyms": [
+              "HierarchyDepth",
+              "ReportingDepth"
+            ]
+          },
+          {
+            "name": "SameCountryAsManager",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Indicates whether the employee works in the same country as their direct manager.",
+            "sample_values": [
+              "True",
+              "False",
+              "Unassigned"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "InvoluntaryManagerChanges",
+            "data_type": "integer",
+            "nullable": false,
+            "description": "Count of involuntary manager changes experienced by the employee.",
+            "sample_values": [
+              "0",
+              "1",
+              "2"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "MetroAreaCluster",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Metropolitan area cluster to which the employee's work city belongs.",
+            "sample_values": [
+              "SF Bay Area",
+              "Greater Seattle",
+              "NYC Metro"
+            ],
+            "synonyms": [
+              "MetroCluster",
+              "CityCluster"
+            ]
+          },
+          {
+            "name": "WorksiteExceptionGranted",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Indicates whether a worksite exception has been granted to the employee.",
+            "sample_values": [
+              "True",
+              "False",
+              "Unassigned"
+            ],
+            "synonyms": [
+              "ExceptionGranted"
+            ]
+          },
+          {
+            "name": "FlexibleWorkGuidanceApplicable",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Indicates whether flexible work guidance policies apply to the employee.",
+            "sample_values": [
+              "True",
+              "False",
+              "Unassigned"
+            ],
+            "synonyms": []
+          }
+        ],
+        "primary_key": {
+          "columns": [
+            "EmployeeId"
+          ],
+          "name": null
+        },
+        "foreign_keys": [
+          {
+            "columns": [
+              "PositionId"
+            ],
+            "ref_table": "Position",
+            "ref_columns": [
+              "PositionId"
+            ],
+            "name": "fk_Person_PositionId_Position_PositionId"
+          }
+        ],
+        "description": "Master identity record for every human in system — candidate, employee, former employee — persistent across lifecycle."
+      },
+      {
+        "id": null,
+        "name": "Position",
+        "columns": [
+          {
+            "name": "PositionId",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Identifier of the position or job slot assigned to the employee.",
+            "sample_values": [
+              "P-00004"
+            ],
+            "synonyms": [
+              "PositionNumber",
+              "PositionNbr"
+            ]
+          },
+          {
+            "name": "PositionTitle",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Official title of the position in the organization's job architecture.",
+            "sample_values": [
+              "Vice President, Human Resources"
+            ],
+            "synonyms": [
+              "RoleTitle",
+              "JobTitle",
+              "BusinessTitle",
+              "Designation"
+            ]
+          },
+          {
+            "name": "OrgUnitId",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Unique identifier for the organizational unit.",
+            "sample_values": [],
+            "synonyms": [
+              "OrgId"
+            ]
+          },
+          {
+            "name": "ManagerPositionId",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Identifier of the position to which this position reports.",
+            "sample_values": [],
+            "synonyms": [
+              "ParentPositionId"
+            ]
+          },
+          {
+            "name": "CareerStage",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Description of career phase or level.",
+            "sample_values": [
+              "Entry Level",
+              "Executive"
+            ],
+            "synonyms": [
+              "CareerPhase"
+            ]
+          }
+        ],
+        "primary_key": {
+          "columns": [
+            "PositionId"
+          ],
+          "name": null
+        },
+        "foreign_keys": [
+          {
+            "columns": [
+              "OrgUnitId"
+            ],
+            "ref_table": "OrgHierarchy",
+            "ref_columns": [
+              "OrgUnitId"
+            ],
+            "name": "fk_Position_OrgUnitId_OrgHierarchy_OrgUnitId"
+          },
+          {
+            "columns": [
+              "ManagerPositionId"
+            ],
+            "ref_table": "Position",
+            "ref_columns": [
+              "PositionId"
+            ],
+            "name": "fk_Position_ManagerPositionId_Position_PositionId"
+          }
+        ],
+        "description": "Canonical job slot in the organization — defines role, level, reporting, and structure, independent of who occupies it."
+      },
+      {
+        "id": null,
+        "name": "OrgHierarchy",
+        "columns": [
+          {
+            "name": "OrgUnitId",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Unique identifier for the organizational unit.",
+            "sample_values": [
+              "41600"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "ParentOrgUnitId",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Identifier of the parent organizational unit in the hierarchy.",
+            "sample_values": [],
+            "synonyms": []
+          },
+          {
+            "name": "Organization",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Internal organization or business unit the employee belongs to.",
+            "sample_values": [
+              "Technology",
+              "Finance"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "OrganizationDetail",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Detailed subdivision within the employee's primary organization, representing a specific department, team, product group, cost center, or functional sub-unit used for operational or reporting purposes.",
+            "sample_values": [
+              "Cloud Platform Engineering"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "CountryOrRegion",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Country or region of employment.",
+            "sample_values": [
+              "United States",
+              "Germany"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "RegionSummary",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Generalized region grouping.",
+            "sample_values": [
+              "North America",
+              "APAC"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "CompanyOfficeState",
+            "data_type": "string",
+            "nullable": false,
+            "description": "State where the employee's office is located.",
+            "sample_values": [
+              "California"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "CompanyOfficeCity",
+            "data_type": "string",
+            "nullable": false,
+            "description": "City where the employee's office is located.",
+            "sample_values": [
+              "San Francisco"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "FunctionType",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Broad functional area of the employee's job.",
+            "sample_values": [
+              "Engineering",
+              "Marketing"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "Layer",
+            "data_type": "integer",
+            "nullable": false,
+            "description": "Hierarchical level in the company's organizational structure.",
+            "sample_values": [
+              "3"
+            ],
+            "synonyms": []
+          }
+        ],
+        "primary_key": {
+          "columns": [
+            "OrgUnitId"
+          ],
+          "name": null
+        },
+        "foreign_keys": [
+          {
+            "columns": [
+              "ParentOrgUnitId"
+            ],
+            "ref_table": "OrgHierarchy",
+            "ref_columns": [
+              "OrgUnitId"
+            ],
+            "name": "fk_OrgHierarchy_ParentOrgUnitId_OrgHierarchy_OrgUnitId"
+          }
+        ],
+        "description": "Defines the company's organizational structure — units, cost centers, regions, and hierarchical relationships."
+      },
+      {
+        "id": null,
+        "name": "WorkAssignment",
+        "columns": [
+          {
+            "name": "AssignmentId",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Unique identifier for the work assignment record.",
+            "sample_values": [],
+            "synonyms": []
+          },
+          {
+            "name": "EmployeeId",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Foreign key linking work assignment to the employee's master record.",
+            "sample_values": [],
+            "synonyms": []
+          },
+          {
+            "name": "OrgUnitId",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Unique identifier for the organizational unit.",
+            "sample_values": [],
+            "synonyms": []
+          },
+          {
+            "name": "WeeklyBadgeOnsiteDays",
+            "data_type": "decimal",
+            "nullable": false,
+            "description": "Average number of days per week the employee is on-site.",
+            "sample_values": [
+              "2.5"
+            ],
+            "synonyms": []
+          },
+          {
+            "name": "WorksiteDesignation",
+            "data_type": "string",
+            "nullable": false,
+            "description": "Category of assigned work site.",
+            "sample_values": [
+              "Remote",
+              "Hybrid",
+              "Onsite"
+            ],
+            "synonyms": []
+          }
+        ],
+        "primary_key": {
+          "columns": [
+            "AssignmentId"
+          ],
+          "name": null
+        },
+        "foreign_keys": [
+          {
+            "columns": [
+              "EmployeeId"
+            ],
+            "ref_table": "Person",
+            "ref_columns": [
+              "EmployeeId"
+            ],
+            "name": "fk_WorkAssignment_EmployeeId_Person_EmployeeId"
+          },
+          {
+            "columns": [
+              "OrgUnitId"
+            ],
+            "ref_table": "OrgHierarchy",
+            "ref_columns": [
+              "OrgUnitId"
+            ],
+            "name": "fk_WorkAssignment_OrgUnitId_OrgHierarchy_OrgUnitId"
+          }
+        ],
+        "description": "Represents a non-permanent or additional assignment of an employee — e.g., project assignment, rotation, temporary assignment."
+      }
+    ],
+    "relations": [
+      {
+        "source_table": "Person",
+        "target_table": "Position",
+        "relationship": "many-to-one",
+        "via_table": null
+      },
+      {
+        "source_table": "Position",
+        "target_table": "OrgHierarchy",
+        "relationship": "many-to-one",
+        "via_table": null
+      },
+      {
+        "source_table": "Position",
+        "target_table": "Position",
+        "relationship": "many-to-one",
+        "via_table": null
+      },
+      {
+        "source_table": "OrgHierarchy",
+        "target_table": "OrgHierarchy",
+        "relationship": "many-to-one",
+        "via_table": null
+      },
+      {
+        "source_table": "WorkAssignment",
+        "target_table": "Person",
+        "relationship": "many-to-one",
+        "via_table": null
+      },
+      {
+        "source_table": "WorkAssignment",
+        "target_table": "OrgHierarchy",
+        "relationship": "many-to-one",
+        "via_table": null
+      }
+    ]
+  },
+  "attribute_mapping_suggestions": [
+    {
+      "target_table": "Person",
+      "target_column": "EmployeeId",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Personnel_Records",
+              "column": "Staff_Number"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 89,
+          "reasoning": "Staff_Number in Personnel_Records is system-assigned and correlates directly to EmployeeId. Highest ranked and best semantic fit.",
+          "preview_sql": "SELECT Staff_Number AS EmployeeId FROM Personnel_Records",
+          "spark_sql": "SELECT Staff_Number AS EmployeeId FROM Personnel_Records"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "PersonId",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Workers",
+              "column": "Work_Email"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 81,
+          "reasoning": "Work_Email in Workers represents the employee's email address and is the closest real attribute to PersonId.",
+          "preview_sql": "SELECT Work_Email AS PersonId FROM Workers",
+          "spark_sql": "SELECT Work_Email AS PersonId FROM Workers"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "ManagerId",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Workers",
+              "column": "Manager_ID"
+            }
+          ],
+          "transformation_hint": "Join Workers.Manager_ID to Workers.Employee_ID to retrieve Work_Email of manager",
+          "confidence": 73,
+          "reasoning": "Manager_ID provides linkage to the manager; Work_Email is needed, but only Manager_ID exists for now. Simple reference without manager's email.",
+          "preview_sql": "SELECT Manager_ID AS ManagerId FROM Workers",
+          "spark_sql": "SELECT Manager_ID AS ManagerId FROM Workers"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "PositionId",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Role_Definitions",
+              "column": "Position_Reference_Number"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 81,
+          "reasoning": "Position_Reference_Number in Role_Definitions is the position/job slot identifier. Highest semantic match.",
+          "preview_sql": "SELECT Position_Reference_Number AS PositionId FROM Role_Definitions",
+          "spark_sql": "SELECT Position_Reference_Number AS PositionId FROM Role_Definitions"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "EffectiveDate",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Role_Definitions",
+              "column": "Activation_Date"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 69,
+          "reasoning": "Activation_Date signals when role/position became effective; closest match for EffectiveDate.",
+          "preview_sql": "SELECT Activation_Date AS EffectiveDate FROM Role_Definitions",
+          "spark_sql": "SELECT Activation_Date AS EffectiveDate FROM Role_Definitions"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "HireDate",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Personnel_Records",
+              "column": "Commencement_Date"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 84,
+          "reasoning": "Commencement_Date is the official date of hire for employees; best direct semantic match.",
+          "preview_sql": "SELECT Commencement_Date AS HireDate FROM Personnel_Records",
+          "spark_sql": "SELECT Commencement_Date AS HireDate FROM Personnel_Records"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "SupervisorIndicator",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Role_Definitions",
+              "column": "Mission_Critical_Flag"
+            }
+          ],
+          "transformation_hint": "Map Mission_Critical_Flag boolean to supervisor indicator values ('Y'/'N')",
+          "confidence": 62,
+          "reasoning": "Mission_Critical_Flag can signal supervisory/manager role, but mapping required. No direct supervisor flag.",
+          "preview_sql": "SELECT CASE WHEN Mission_Critical_Flag THEN 'Y' ELSE 'N' END AS SupervisorIndicator FROM Role_Definitions",
+          "spark_sql": "SELECT CASE WHEN Mission_Critical_Flag THEN 'Y' ELSE 'N' END AS SupervisorIndicator FROM Role_Definitions"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "EmploymentType",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Personnel_Records",
+              "column": "Engagement_Type"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 89,
+          "reasoning": "Engagement_Type in Personnel_Records specifies contract type and maps directly.",
+          "preview_sql": "SELECT Engagement_Type AS EmploymentType FROM Personnel_Records",
+          "spark_sql": "SELECT Engagement_Type AS EmploymentType FROM Personnel_Records"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "EmployeeProfession",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Personnel_Records",
+              "column": "Professional_Title"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 85,
+          "reasoning": "Professional_Title captures the profession/occupation semantic for EmployeeProfession.",
+          "preview_sql": "SELECT Professional_Title AS EmployeeProfession FROM Personnel_Records",
+          "spark_sql": "SELECT Professional_Title AS EmployeeProfession FROM Personnel_Records"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "CurrentEmploymentStatus",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Personnel_Records",
+              "column": "Current_Status"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 90,
+          "reasoning": "Current_Status refers to the employment state (active, on leave, terminated), matching CurrentEmploymentStatus.",
+          "preview_sql": "SELECT Current_Status AS CurrentEmploymentStatus FROM Personnel_Records",
+          "spark_sql": "SELECT Current_Status AS CurrentEmploymentStatus FROM Personnel_Records"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "CountryOrRegion",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Workplace_Sites",
+              "column": "Nation_Code"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 83,
+          "reasoning": "Nation_Code delivers ISO country code format which matches CountryOrRegion expectations.",
+          "preview_sql": "SELECT Nation_Code AS CountryOrRegion FROM Workplace_Sites",
+          "spark_sql": "SELECT Nation_Code AS CountryOrRegion FROM Workplace_Sites"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "RegionSummary",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Workplace_Sites",
+              "column": "Administrative_Region"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 81,
+          "reasoning": "Administrative_Region provides geographic region or state/province at assigned work location.",
+          "preview_sql": "SELECT Administrative_Region AS RegionSummary FROM Workplace_Sites",
+          "spark_sql": "SELECT Administrative_Region AS RegionSummary FROM Workplace_Sites"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "CitySummary",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Workplace_Sites",
+              "column": "Municipality"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 80,
+          "reasoning": "Municipality represents the city of work assignment; direct mapping for CitySummary.",
+          "preview_sql": "SELECT Municipality AS CitySummary FROM Workplace_Sites",
+          "spark_sql": "SELECT Municipality AS CitySummary FROM Workplace_Sites"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "FirstName",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Workers",
+              "column": "First_Name"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 86,
+          "reasoning": "First_Name is the employee's legal first name; direct correspondence to FirstName.",
+          "preview_sql": "SELECT First_Name AS FirstName FROM Workers",
+          "spark_sql": "SELECT First_Name AS FirstName FROM Workers"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "MiddleName",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Personnel_Records",
+              "column": "Personnel_Identifier"
+            }
+          ],
+          "transformation_hint": "No middle name attribute present; placeholder field. Use Personnel_Identifier as null or empty.",
+          "confidence": 30,
+          "reasoning": "No dedicated middle name exists; placeholder mapping from available column.",
+          "preview_sql": "SELECT NULL AS MiddleName FROM Personnel_Records",
+          "spark_sql": "SELECT NULL AS MiddleName FROM Personnel_Records"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "LastName",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Workers",
+              "column": "Last_Name"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 86,
+          "reasoning": "Last_Name gives legal surname; matches LastName in Person.",
+          "preview_sql": "SELECT Last_Name AS LastName FROM Workers",
+          "spark_sql": "SELECT Last_Name AS LastName FROM Workers"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "FullName",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Workers",
+              "column": "First_Name"
+            },
+            {
+              "table": "Workers",
+              "column": "Last_Name"
+            }
+          ],
+          "transformation_hint": "Concatenate First_Name and Last_Name for FullName",
+          "confidence": 82,
+          "reasoning": "Full name must be constructed by combining legal given and surname; concatenate fields.",
+          "preview_sql": "SELECT CONCAT(First_Name, ' ', Last_Name) AS FullName FROM Workers",
+          "spark_sql": "SELECT CONCAT(First_Name, ' ', Last_Name) AS FullName FROM Workers"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "AssignedOfficeCity",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Workplace_Sites",
+              "column": "Municipality"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 79,
+          "reasoning": "Assigned office city is best represented by Municipality field in Workplace_Sites.",
+          "preview_sql": "SELECT Municipality AS AssignedOfficeCity FROM Workplace_Sites",
+          "spark_sql": "SELECT Municipality AS AssignedOfficeCity FROM Workplace_Sites"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "CompanyOfficeState",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Workplace_Sites",
+              "column": "Administrative_Region"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 80,
+          "reasoning": "Administrative_Region in Workplace_Sites is the state/province for CompanyOfficeState.",
+          "preview_sql": "SELECT Administrative_Region AS CompanyOfficeState FROM Workplace_Sites",
+          "spark_sql": "SELECT Administrative_Region AS CompanyOfficeState FROM Workplace_Sites"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "EmployeeJobTitle",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Workers",
+              "column": "Job_Title"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 86,
+          "reasoning": "Job_Title is the current job title for employees; direct mapping.",
+          "preview_sql": "SELECT Job_Title AS EmployeeJobTitle FROM Workers",
+          "spark_sql": "SELECT Job_Title AS EmployeeJobTitle FROM Workers"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "FunctionType",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Workers",
+              "column": "Department"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 75,
+          "reasoning": "Department corresponds to functional area or discipline.",
+          "preview_sql": "SELECT Department AS FunctionType FROM Workers",
+          "spark_sql": "SELECT Department AS FunctionType FROM Workers"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "StockLevel",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Remuneration_Records",
+              "column": "Pay_Scale_Level"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 74,
+          "reasoning": "Pay_Scale_Level informs equity/stock compensation tier; best semantic fit.",
+          "preview_sql": "SELECT Pay_Scale_Level AS StockLevel FROM Remuneration_Records",
+          "spark_sql": "SELECT Pay_Scale_Level AS StockLevel FROM Remuneration_Records"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "WorkAnniversaryDate",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Personnel_Records",
+              "column": "Commencement_Date"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 70,
+          "reasoning": "Commencement_Date can represent work anniversary or service milestone. No direct service date.",
+          "preview_sql": "SELECT Commencement_Date AS WorkAnniversaryDate FROM Personnel_Records",
+          "spark_sql": "SELECT Commencement_Date AS WorkAnniversaryDate FROM Personnel_Records"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "PayScaleArea",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Remuneration_Records",
+              "column": "Payment_Currency"
+            }
+          ],
+          "transformation_hint": "Payment_Currency could relate to pay scale area; semantic approximation.",
+          "confidence": 60,
+          "reasoning": "Payment_Currency provides a geographic association to pay area but may require further transformation.",
+          "preview_sql": "SELECT Payment_Currency AS PayScaleArea FROM Remuneration_Records",
+          "spark_sql": "SELECT Payment_Currency AS PayScaleArea FROM Remuneration_Records"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "ReasonForChangeCode",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Remuneration_Records",
+              "column": "Adjustment_Rationale"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 68,
+          "reasoning": "Adjustment_Rationale is closest to reason-for-change code for HR status updates.",
+          "preview_sql": "SELECT Adjustment_Rationale AS ReasonForChangeCode FROM Remuneration_Records",
+          "spark_sql": "SELECT Adjustment_Rationale AS ReasonForChangeCode FROM Remuneration_Records"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "ExpectedInOfficeDays",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Absence_Records",
+              "column": "Duration_In_Days"
+            }
+          ],
+          "transformation_hint": "Duration_In_Days can be interpreted as expected in-office days (approximation).",
+          "confidence": 55,
+          "reasoning": "Duration_In_Days from Absence_Records provides count-of-days logic, closest available.",
+          "preview_sql": "SELECT Duration_In_Days AS ExpectedInOfficeDays FROM Absence_Records",
+          "spark_sql": "SELECT Duration_In_Days AS ExpectedInOfficeDays FROM Absence_Records"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "ApprovedInOfficeDays",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Absence_Records",
+              "column": "Duration_In_Days"
+            }
+          ],
+          "transformation_hint": "Duration_In_Days used again as proxy for actual approved in-office days.",
+          "confidence": 53,
+          "reasoning": "No explicit approved office days; Duration_In_Days is numeric and closest logical fit.",
+          "preview_sql": "SELECT Duration_In_Days AS ApprovedInOfficeDays FROM Absence_Records",
+          "spark_sql": "SELECT Duration_In_Days AS ApprovedInOfficeDays FROM Absence_Records"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "WorkSiteDesignation",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Workplace_Sites",
+              "column": "Facility_Category"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 93,
+          "reasoning": "Facility_Category in Workplace_Sites matches classification of work site arrangement.",
+          "preview_sql": "SELECT Facility_Category AS WorkSiteDesignation FROM Workplace_Sites",
+          "spark_sql": "SELECT Facility_Category AS WorkSiteDesignation FROM Workplace_Sites"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "StockLevelCompressionInd",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Remuneration_Records",
+              "column": "Equity_Grant_Value"
+            }
+          ],
+          "transformation_hint": "Use Equity_Grant_Value to infer compression: low values relative to manager imply compression ('Y'/'N').",
+          "confidence": 40,
+          "reasoning": "No explicit compression indicator; Equity_Grant_Value is closest for compensation compression logic.",
+          "preview_sql": "SELECT CASE WHEN Equity_Grant_Value < 10000 THEN 'Y' ELSE 'N' END AS StockLevelCompressionInd FROM Remuneration_Records",
+          "spark_sql": "SELECT CASE WHEN Equity_Grant_Value < 10000 THEN 'Y' ELSE 'N' END AS StockLevelCompressionInd FROM Remuneration_Records"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "OrgDepth",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Organizational_Units",
+              "column": "Unit_Reference_Code"
+            }
+          ],
+          "transformation_hint": "Decode Unit_Reference_Code hierarchical string; count levels separated by delimiter.",
+          "confidence": 62,
+          "reasoning": "Unit_Reference_Code may encode hierarchy depth (e.g., separated by '-' or other delimiter).",
+          "preview_sql": "SELECT LENGTH(Unit_Reference_Code) - LENGTH(REPLACE(Unit_Reference_Code, '-', '')) + 1 AS OrgDepth FROM Organizational_Units",
+          "spark_sql": "SELECT LENGTH(Unit_Reference_Code) - LENGTH(REPLACE(Unit_Reference_Code, '-', '')) + 1 AS OrgDepth FROM Organizational_Units"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "SameCountryAsManager",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Workers",
+              "column": "Location_ID"
+            },
+            {
+              "table": "Workers",
+              "column": "Manager_ID"
+            }
+          ],
+          "transformation_hint": "Join Workers for employee and manager; compare Location_IDs for country similarity.",
+          "confidence": 63,
+          "reasoning": "Location_ID is available for both workers and their managers; compare to infer 'same country'.",
+          "preview_sql": "SELECT CASE WHEN Location_ID = Manager_ID THEN 'Y' ELSE 'N' END AS SameCountryAsManager FROM Workers",
+          "spark_sql": "SELECT CASE WHEN Location_ID = Manager_ID THEN 'Y' ELSE 'N' END AS SameCountryAsManager FROM Workers"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "InvoluntaryManagerChanges",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Absence_Records",
+              "column": "Authorizing_Manager_ID"
+            }
+          ],
+          "transformation_hint": "Count distinct Authorizing_Manager_ID changes per personnel reference.",
+          "confidence": 48,
+          "reasoning": "Absence_Records provides manager changes; involuntary status requires additional filtering.",
+          "preview_sql": "SELECT COUNT(DISTINCT Authorizing_Manager_ID) AS InvoluntaryManagerChanges FROM Absence_Records",
+          "spark_sql": "SELECT COUNT(DISTINCT Authorizing_Manager_ID) AS InvoluntaryManagerChanges FROM Absence_Records"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "MetroAreaCluster",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Workplace_Sites",
+              "column": "Municipality"
+            }
+          ],
+          "transformation_hint": "Municipality mapped to metro cluster using lookup or region grouping.",
+          "confidence": 51,
+          "reasoning": "Municipality can be grouped into metro area clusters based on known region associations.",
+          "preview_sql": "SELECT Municipality AS MetroAreaCluster FROM Workplace_Sites",
+          "spark_sql": "SELECT Municipality AS MetroAreaCluster FROM Workplace_Sites"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "WorksiteExceptionGranted",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Workplace_Sites",
+              "column": "Operational_Status"
+            }
+          ],
+          "transformation_hint": "Operational_Status boolean can be mapped to exception granted logic.",
+          "confidence": 64,
+          "reasoning": "Operational_Status is closest indicator of exception status; boolean type.",
+          "preview_sql": "SELECT CASE WHEN Operational_Status THEN 'Y' ELSE 'N' END AS WorksiteExceptionGranted FROM Workplace_Sites",
+          "spark_sql": "SELECT CASE WHEN Operational_Status THEN 'Y' ELSE 'N' END AS WorksiteExceptionGranted FROM Workplace_Sites"
+        }
+      ]
+    },
+    {
+      "target_table": "Person",
+      "target_column": "FlexibleWorkGuidanceApplicable",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Personnel_Records",
+              "column": "Working_Schedule"
+            }
+          ],
+          "transformation_hint": "Check Working_Schedule for 'flexible' string to determine applicability.",
+          "confidence": 58,
+          "reasoning": "Working_Schedule gives insight into flexible work guidance policy; check for flexible schedule.",
+          "preview_sql": "SELECT CASE WHEN LOWER(Working_Schedule) LIKE '%flexible%' THEN 'Y' ELSE 'N' END AS FlexibleWorkGuidanceApplicable FROM Personnel_Records",
+          "spark_sql": "SELECT CASE WHEN LOWER(Working_Schedule) LIKE '%flexible%' THEN 'Y' ELSE 'N' END AS FlexibleWorkGuidanceApplicable FROM Personnel_Records"
+        }
+      ]
+    },
+    {
+      "target_table": "Position",
+      "target_column": "PositionId",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Role_Definitions",
+              "column": "Position_Reference_Number"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 93,
+          "reasoning": "Position_Reference_Number in Role_Definitions is most semantically aligned with PositionId: it serves as a unique identifier for positions, matching the PK role. It is the highest-ranked source by similarity.",
+          "preview_sql": "SELECT Position_Reference_Number AS PositionId FROM Role_Definitions",
+          "spark_sql": "SELECT Position_Reference_Number AS PositionId FROM Role_Definitions"
+        }
+      ]
+    },
+    {
+      "target_table": "Position",
+      "target_column": "PositionTitle",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Role_Definitions",
+              "column": "Role_Designation"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 91,
+          "reasoning": "Role_Designation in Role_Definitions describes the official designation/title of the position, directly mapping to PositionTitle, and is the top similarity source.",
+          "preview_sql": "SELECT Role_Designation AS PositionTitle FROM Role_Definitions",
+          "spark_sql": "SELECT Role_Designation AS PositionTitle FROM Role_Definitions"
+        }
+      ]
+    },
+    {
+      "target_table": "Position",
+      "target_column": "OrgUnitId",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Role_Definitions",
+              "column": "Owning_Organization_ID"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 86,
+          "reasoning": "Owning_Organization_ID in Role_Definitions links a position to the controlling organizational unit, mapping to OrgUnitId. It reflects the reporting unit for the position.",
+          "preview_sql": "SELECT Owning_Organization_ID AS OrgUnitId FROM Role_Definitions",
+          "spark_sql": "SELECT Owning_Organization_ID AS OrgUnitId FROM Role_Definitions"
+        }
+      ]
+    },
+    {
+      "target_table": "Position",
+      "target_column": "ManagerPositionId",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Role_Definitions",
+              "column": "Responsible_Organization"
+            }
+          ],
+          "transformation_hint": "Requires business logic to decode Responsible_Organization as the supervisor position's identifier or join with Role_Definitions to resolve manager's Position_Reference_Number.",
+          "confidence": 75,
+          "reasoning": "Responsible_Organization is the closest available attribute for establishing reporting relationships, although it may require decoding to a valid PositionId. No direct manager-position mapping exists; additional business mapping logic may be required.",
+          "preview_sql": "SELECT Responsible_Organization AS ManagerPositionId FROM Role_Definitions",
+          "spark_sql": "SELECT Responsible_Organization AS ManagerPositionId FROM Role_Definitions"
+        }
+      ]
+    },
+    {
+      "target_table": "Position",
+      "target_column": "CareerStage",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Role_Definitions",
+              "column": "Career_Stage"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 98,
+          "reasoning": "Career_Stage in Role_Definitions exactly matches the semantic meaning and type of CareerStage in the target and is the clear direct mapping.",
+          "preview_sql": "SELECT Career_Stage AS CareerStage FROM Role_Definitions",
+          "spark_sql": "SELECT Career_Stage AS CareerStage FROM Role_Definitions"
+        }
+      ]
+    },
+    {
+      "target_table": "OrgHierarchy",
+      "target_column": "OrgUnitId",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Organizational_Units",
+              "column": "Organizational_Unit_ID"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 97,
+          "reasoning": "The target OrgUnitId is defined as a unique identifier for the org unit, which directly matches Organizational_Units.Organizational_Unit_ID by name and semantics.",
+          "preview_sql": "SELECT Organizational_Unit_ID AS OrgUnitId FROM Organizational_Units",
+          "spark_sql": "SELECT Organizational_Unit_ID AS OrgUnitId FROM Organizational_Units"
+        }
+      ]
+    },
+    {
+      "target_table": "OrgHierarchy",
+      "target_column": "ParentOrgUnitId",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Organizational_Units",
+              "column": "Parent_Unit_Reference"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 96,
+          "reasoning": "ParentOrgUnitId refers to the parent organizational unit and Organizational_Units.Parent_Unit_Reference provides the link to a parent unit, matching business logic and datatype.",
+          "preview_sql": "SELECT Parent_Unit_Reference AS ParentOrgUnitId FROM Organizational_Units",
+          "spark_sql": "SELECT Parent_Unit_Reference AS ParentOrgUnitId FROM Organizational_Units"
+        }
+      ]
+    },
+    {
+      "target_table": "OrgHierarchy",
+      "target_column": "Organization",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Organizational_Units",
+              "column": "Supervising_Organization"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 92,
+          "reasoning": "Organization represents the business unit or division and Supervising_Organization is the internal organization/unit that oversees the current one. This aligns with expected semantics.",
+          "preview_sql": "SELECT Supervising_Organization AS Organization FROM Organizational_Units",
+          "spark_sql": "SELECT Supervising_Organization AS Organization FROM Organizational_Units"
+        }
+      ]
+    },
+    {
+      "target_table": "OrgHierarchy",
+      "target_column": "OrganizationDetail",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Organizational_Units",
+              "column": "Unit_Designation"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 90,
+          "reasoning": "OrganizationDetail requires the name of the specific sub-division, which is well-aligned with Unit_Designation in Organizational_Units. This field most closely represents a department, team, or cost center detail.",
+          "preview_sql": "SELECT Unit_Designation AS OrganizationDetail FROM Organizational_Units",
+          "spark_sql": "SELECT Unit_Designation AS OrganizationDetail FROM Organizational_Units"
+        }
+      ]
+    },
+    {
+      "target_table": "OrgHierarchy",
+      "target_column": "CountryOrRegion",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Organizational_Units",
+              "column": "Physical_Location_ID"
+            },
+            {
+              "table": "Workplace_Sites",
+              "column": "Nation"
+            }
+          ],
+          "transformation_hint": "Join Organizational_Units.Physical_Location_ID = Workplace_Sites.Site_Identifier to get Nation value.",
+          "confidence": 87,
+          "reasoning": "CountryOrRegion depicts geographic assignment (country or region). Organizational_Units.Physical_Location_ID links to a workplace location, and Workplace_Sites.Nation provides the country, requiring a join.",
+          "preview_sql": "SELECT ws.Nation AS CountryOrRegion FROM Organizational_Units ou JOIN Workplace_Sites ws ON ou.Physical_Location_ID = ws.Site_Identifier",
+          "spark_sql": "SELECT ws.Nation AS CountryOrRegion FROM Organizational_Units ou JOIN Workplace_Sites ws ON ou.Physical_Location_ID = ws.Site_Identifier"
+        }
+      ]
+    },
+    {
+      "target_table": "OrgHierarchy",
+      "target_column": "RegionSummary",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Organizational_Units",
+              "column": "Physical_Location_ID"
+            },
+            {
+              "table": "Workplace_Sites",
+              "column": "Administrative_Region"
+            }
+          ],
+          "transformation_hint": "Join Organizational_Units.Physical_Location_ID = Workplace_Sites.Site_Identifier to obtain Administrative_Region.",
+          "confidence": 85,
+          "reasoning": "RegionSummary is a generalized region. Administrative_Region in Workplace_Sites, obtained via the location ID, best maps to this abstraction.",
+          "preview_sql": "SELECT ws.Administrative_Region AS RegionSummary FROM Organizational_Units ou JOIN Workplace_Sites ws ON ou.Physical_Location_ID = ws.Site_Identifier",
+          "spark_sql": "SELECT ws.Administrative_Region AS RegionSummary FROM Organizational_Units ou JOIN Workplace_Sites ws ON ou.Physical_Location_ID = ws.Site_Identifier"
+        }
+      ]
+    },
+    {
+      "target_table": "OrgHierarchy",
+      "target_column": "CompanyOfficeState",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Organizational_Units",
+              "column": "Physical_Location_ID"
+            },
+            {
+              "table": "Workplace_Sites",
+              "column": "Administrative_Region"
+            }
+          ],
+          "transformation_hint": "Join Organizational_Units.Physical_Location_ID = Workplace_Sites.Site_Identifier to extract the state from Administrative_Region as state/province.",
+          "confidence": 83,
+          "reasoning": "CompanyOfficeState represents the office's state. Although not explicitly labeled as 'state', Administrative_Region from the joined Workplace_Sites table generally holds this information.",
+          "preview_sql": "SELECT ws.Administrative_Region AS CompanyOfficeState FROM Organizational_Units ou JOIN Workplace_Sites ws ON ou.Physical_Location_ID = ws.Site_Identifier",
+          "spark_sql": "SELECT ws.Administrative_Region AS CompanyOfficeState FROM Organizational_Units ou JOIN Workplace_Sites ws ON ou.Physical_Location_ID = ws.Site_Identifier"
+        }
+      ]
+    },
+    {
+      "target_table": "OrgHierarchy",
+      "target_column": "CompanyOfficeCity",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Organizational_Units",
+              "column": "Physical_Location_ID"
+            },
+            {
+              "table": "Workplace_Sites",
+              "column": "Municipality"
+            }
+          ],
+          "transformation_hint": "Join Organizational_Units.Physical_Location_ID = Workplace_Sites.Site_Identifier to get Municipality (city).",
+          "confidence": 89,
+          "reasoning": "CompanyOfficeCity is mapped to Municipality (city) in Workplace_Sites, which can be accessed through the location ID from Organizational_Units.",
+          "preview_sql": "SELECT ws.Municipality AS CompanyOfficeCity FROM Organizational_Units ou JOIN Workplace_Sites ws ON ou.Physical_Location_ID = ws.Site_Identifier",
+          "spark_sql": "SELECT ws.Municipality AS CompanyOfficeCity FROM Organizational_Units ou JOIN Workplace_Sites ws ON ou.Physical_Location_ID = ws.Site_Identifier"
+        }
+      ]
+    },
+    {
+      "target_table": "OrgHierarchy",
+      "target_column": "FunctionType",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Organizational_Units",
+              "column": "Unit_Classification"
+            }
+          ],
+          "transformation_hint": null,
+          "confidence": 85,
+          "reasoning": "FunctionType refers to broad functional area. Unit_Classification in Organizational_Units describes such a broad categorization and is the best fit among available attributes.",
+          "preview_sql": "SELECT Unit_Classification AS FunctionType FROM Organizational_Units",
+          "spark_sql": "SELECT Unit_Classification AS FunctionType FROM Organizational_Units"
+        }
+      ]
+    },
+    {
+      "target_table": "OrgHierarchy",
+      "target_column": "Layer",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Organizational_Units",
+              "column": "Unit_Subclassification"
+            }
+          ],
+          "transformation_hint": "Parse or map Unit_Subclassification to an integer representing layer if values are categorical. Otherwise, set business rules to convert classification levels to layer integers.",
+          "confidence": 73,
+          "reasoning": "Layer represents the org's relative hierarchical depth. While no direct numeric level exists, Unit_Subclassification may be mapped to an integer layer through decoding. A custom mapping may be required.",
+          "preview_sql": "SELECT Unit_Subclassification AS Layer FROM Organizational_Units",
+          "spark_sql": "SELECT Unit_Subclassification AS Layer FROM Organizational_Units"
+        }
+      ]
+    },
+    {
+      "target_table": "WorkAssignment",
+      "target_column": "AssignmentId",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Role_Definitions",
+              "column": "Role_Identifier"
+            }
+          ],
+          "transformation_hint": "Use Role_Definitions.Role_Identifier as unique identifier representing the work assignment.",
+          "confidence": 75,
+          "reasoning": "AssignmentId requires a unique identifier for each work assignment. Role_Definitions.Role_Identifier best matches this requirement as it represents a unique assignment/role instance.",
+          "preview_sql": "SELECT Role_Identifier AS AssignmentId FROM Role_Definitions",
+          "spark_sql": "SELECT Role_Identifier AS AssignmentId FROM Role_Definitions"
+        }
+      ]
+    },
+    {
+      "target_table": "WorkAssignment",
+      "target_column": "EmployeeId",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Role_Definitions",
+              "column": "Incumbent_Worker_ID"
+            },
+            {
+              "table": "Workers",
+              "column": "Worker_ID"
+            },
+            {
+              "table": "Workers",
+              "column": "Employee_ID"
+            }
+          ],
+          "transformation_hint": "Join Role_Definitions.Incumbent_Worker_ID = Workers.Worker_ID to get corresponding Employee_ID.",
+          "confidence": 85,
+          "reasoning": "EmployeeId is the foreign key referencing Persons. Workers.Employee_ID is the canonical employee id. Role_Definitions assigns a worker via Incumbent_Worker_ID, which matches Workers.Worker_ID, making this the most relationally accurate mapping.",
+          "preview_sql": "SELECT w.Employee_ID AS EmployeeId FROM Role_Definitions rd JOIN Workers w ON rd.Incumbent_Worker_ID = w.Worker_ID",
+          "spark_sql": "SELECT w.Employee_ID AS EmployeeId FROM Role_Definitions rd JOIN Workers w ON rd.Incumbent_Worker_ID = w.Worker_ID"
+        }
+      ]
+    },
+    {
+      "target_table": "WorkAssignment",
+      "target_column": "OrgUnitId",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Role_Definitions",
+              "column": "Owning_Organization_ID"
+            },
+            {
+              "table": "Organizational_Units",
+              "column": "Organizational_Unit_ID"
+            }
+          ],
+          "transformation_hint": "Map Role_Definitions.Owning_Organization_ID to Organizational_Units.Organizational_Unit_ID for fk.",
+          "confidence": 92,
+          "reasoning": "Owning_Organization_ID in Role_Definitions indicates the organization/unit responsible for the work assignment, matching with Organizational_Unit_ID, appropriate for OrgUnitId foreign key.",
+          "preview_sql": "SELECT rd.Owning_Organization_ID AS OrgUnitId FROM Role_Definitions rd",
+          "spark_sql": "SELECT rd.Owning_Organization_ID AS OrgUnitId FROM Role_Definitions rd"
+        }
+      ]
+    },
+    {
+      "target_table": "WorkAssignment",
+      "target_column": "WeeklyBadgeOnsiteDays",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Role_Definitions",
+              "column": "Schedule_Classification"
+            }
+          ],
+          "transformation_hint": "Parse Schedule_Classification to derive number of onsite days (may require business logic decode, e.g. F/T, P/T schedules).",
+          "confidence": 60,
+          "reasoning": "No direct count of onsite days exists. Schedule_Classification best encodes work schedule type, from which onsite presence per week might be derived (possibly mapping descriptions like '5x8', '3x12', etc).",
+          "preview_sql": "SELECT Schedule_Classification AS WeeklyBadgeOnsiteDays FROM Role_Definitions",
+          "spark_sql": "SELECT Schedule_Classification AS WeeklyBadgeOnsiteDays FROM Role_Definitions"
+        }
+      ]
+    },
+    {
+      "target_table": "WorkAssignment",
+      "target_column": "WorksiteDesignation",
+      "sources_attributes_suggestions": [
+        {
+          "source_attributes": [
+            {
+              "table": "Role_Definitions",
+              "column": "Assignment_Location_ID"
+            },
+            {
+              "table": "Workplace_Sites",
+              "column": "Facility_Designation"
+            }
+          ],
+          "transformation_hint": "Join Role_Definitions.Assignment_Location_ID to Workplace_Sites.Site_Identifier; take Workplace_Sites.Facility_Designation as worksite designation.",
+          "confidence": 95,
+          "reasoning": "Assignment_Location_ID refers to the work location for the assignment; Workplace_Sites.Facility_Designation describes the worksite. This is the clearest, highest-confidence mapping for worksite designation.",
+          "preview_sql": "SELECT ws.Facility_Designation AS WorksiteDesignation FROM Role_Definitions rd JOIN Workplace_Sites ws ON rd.Assignment_Location_ID = ws.Site_Identifier",
+          "spark_sql": "SELECT ws.Facility_Designation AS WorksiteDesignation FROM Role_Definitions rd JOIN Workplace_Sites ws ON rd.Assignment_Location_ID = ws.Site_Identifier"
+        }
+      ]
+    }
+  ],
+  "sql": [
+    {
+      "table": "OrgHierarchy",
+      "preview_sql": "CREATE OR REPLACE VIEW OrgHierarchy AS\nSELECT \n  ou.Organizational_Unit_ID AS OrgUnitId,\n  ou.Parent_Unit_Reference AS ParentOrgUnitId,\n  ou.Supervising_Organization AS Organization,\n  ou.Unit_Designation AS OrganizationDetail,\n  COALESCE(ws.Nation, '') AS CountryOrRegion,\n  COALESCE(ws.Administrative_Region, '') AS RegionSummary,\n  COALESCE(ws.Administrative_Region, '') AS CompanyOfficeState,\n  COALESCE(ws.Municipality, '') AS CompanyOfficeCity,\n  ou.Unit_Classification AS FunctionType,\n  CASE \n    WHEN ou.Unit_Subclassification ~ '^[0-9]+$' THEN CAST(ou.Unit_Subclassification AS INTEGER)\n    ELSE NULL\n  END AS Layer\nFROM Organizational_Units ou\nLEFT JOIN Workplace_Sites ws\n  ON ou.Physical_Location_ID = ws.Site_Identifier;",
+      "spark_sql": "CREATE OR REPLACE VIEW OrgHierarchy AS\nSELECT\n  ou.Organizational_Unit_ID AS OrgUnitId,\n  ou.Parent_Unit_Reference AS ParentOrgUnitId,\n  ou.Supervising_Organization AS Organization,\n  ou.Unit_Designation AS OrganizationDetail,\n  COALESCE(ws.Nation, '') AS CountryOrRegion,\n  COALESCE(ws.Administrative_Region, '') AS RegionSummary,\n  COALESCE(ws.Administrative_Region, '') AS CompanyOfficeState,\n  COALESCE(ws.Municipality, '') AS CompanyOfficeCity,\n  ou.Unit_Classification AS FunctionType,\n  CASE \n    WHEN ou.Unit_Subclassification RLIKE '^[0-9]+$' THEN CAST(ou.Unit_Subclassification AS INT)\n    ELSE NULL\n  END AS Layer\nFROM Organizational_Units ou\nLEFT JOIN Workplace_Sites ws\n  ON ou.Physical_Location_ID = ws.Site_Identifier"
+    },
+    {
+      "table": "Position",
+      "preview_sql": "CREATE OR REPLACE VIEW Position AS\nSELECT\n  rd.Position_Reference_Number AS PositionId,\n  rd.Role_Designation AS PositionTitle,\n  rd.Owning_Organization_ID AS OrgUnitId,\n  mgr.Position_Reference_Number AS ManagerPositionId,\n  rd.Career_Stage AS CareerStage\nFROM Role_Definitions rd\nLEFT JOIN Role_Definitions mgr\n  ON rd.Responsible_Organization = mgr.Role_Identifier\nWHERE rd.Position_Reference_Number IS NOT NULL\n  AND rd.Role_Designation IS NOT NULL\n  AND rd.Owning_Organization_ID IS NOT NULL\n  AND mgr.Position_Reference_Number IS NOT NULL\n  AND rd.Career_Stage IS NOT NULL;",
+      "spark_sql": "CREATE OR REPLACE VIEW Position AS\nSELECT\n  rd.Position_Reference_Number AS PositionId,\n  rd.Role_Designation AS PositionTitle,\n  rd.Owning_Organization_ID AS OrgUnitId,\n  mgr.Position_Reference_Number AS ManagerPositionId,\n  rd.Career_Stage AS CareerStage\nFROM Role_Definitions rd\nLEFT JOIN Role_Definitions mgr\n  ON rd.Responsible_Organization = mgr.Role_Identifier\nWHERE rd.Position_Reference_Number IS NOT NULL\n  AND rd.Role_Designation IS NOT NULL\n  AND rd.Owning_Organization_ID IS NOT NULL\n  AND mgr.Position_Reference_Number IS NOT NULL\n  AND rd.Career_Stage IS NOT NULL"
+    },
+    {
+      "table": "Person",
+      "preview_sql": "CREATE OR REPLACE VIEW Person AS\nSELECT\n    pr.Staff_Number AS EmployeeId,\n    w.Work_Email AS PersonId,\n    w_mgr.Work_Email AS ManagerId,\n    rd.Position_Reference_Number AS PositionId,\n    rd.Activation_Date AS EffectiveDate,\n    pr.Commencement_Date AS HireDate,\n    CASE WHEN rd.Mission_Critical_Flag = TRUE THEN 'Y' ELSE 'N' END AS SupervisorIndicator,\n    pr.Engagement_Type AS EmploymentType,\n    pr.Professional_Title AS EmployeeProfession,\n    pr.Current_Status AS CurrentEmploymentStatus,\n    ws.Nation_Code AS CountryOrRegion,\n    ws.Administrative_Region AS RegionSummary,\n    ws.Municipality AS CitySummary,\n    w.First_Name AS FirstName,\n    NULL AS MiddleName,\n    w.Last_Name AS LastName,\n    CONCAT(w.First_Name, ' ', w.Last_Name) AS FullName,\n    ws.Municipality AS AssignedOfficeCity,\n    ws.Administrative_Region AS CompanyOfficeState,\n    w.Job_Title AS EmployeeJobTitle,\n    w.Department AS FunctionType,\n    rr.Pay_Scale_Level AS StockLevel,\n    pr.Commencement_Date AS WorkAnniversaryDate,\n    rr.Payment_Currency AS PayScaleArea,\n    rr.Adjustment_Rationale AS ReasonForChangeCode,\n    ar.Duration_In_Days AS ExpectedInOfficeDays,\n    ar.Duration_In_Days AS ApprovedInOfficeDays,\n    ws.Facility_Category AS WorkSiteDesignation,\n    -- StockLevelCompressionInd: 'Y' if employee's Equity_Grant_Value < manager's, else 'N'.\n    CASE WHEN rr.Equity_Grant_Value < mgr_rr.Equity_Grant_Value THEN 'Y' ELSE 'N' END AS StockLevelCompressionInd,\n    -- OrgDepth: count segments in Unit_Reference_Code by delimiter (assume delimiter is '.')\n    CASE WHEN ou.Unit_Reference_Code IS NOT NULL THEN array_length(string_to_array(ou.Unit_Reference_Code, '.'), 1) ELSE 1 END AS OrgDepth,\n    -- SameCountryAsManager: 'Y' if employee and manager Location_ID have same Nation_Code, else 'N'.\n    CASE WHEN ws.Nation_Code = ws_mgr.Nation_Code THEN 'Y' ELSE 'N' END AS SameCountryAsManager,\n    -- InvoluntaryManagerChanges: count distinct Authorizing_Manager_ID in Absence_Records for this employee\n    (\n      SELECT COUNT(DISTINCT ar2.Authorizing_Manager_ID)\n      FROM Absence_Records ar2\n      WHERE ar2.Personnel_Reference_ID = pr.Personnel_Identifier\n    ) AS InvoluntaryManagerChanges,\n    ws.Municipality AS MetroAreaCluster,\n    -- WorksiteExceptionGranted: TRUE if ws.Operational_Status = FALSE, else FALSE\n    CASE WHEN ws.Operational_Status = FALSE THEN 'Y' ELSE 'N' END AS WorksiteExceptionGranted,\n    -- FlexibleWorkGuidanceApplicable: 'Y' if Working_Schedule ILIKE '%flexible%', else 'N'\n    CASE WHEN pr.Working_Schedule ILIKE '%flexible%' THEN 'Y' ELSE 'N' END AS FlexibleWorkGuidanceApplicable\nFROM\n    Personnel_Records pr\n    LEFT JOIN Workers w ON w.Employee_ID = pr.Staff_Number\n    LEFT JOIN Role_Definitions rd ON rd.Incumbent_Worker_ID = w.Worker_ID\n    LEFT JOIN Workplace_Sites ws ON ws.Site_Identifier = pr.Workplace_Location_ID\n    LEFT JOIN Remuneration_Records rr ON rr.Personnel_Reference_ID = pr.Personnel_Identifier\n    LEFT JOIN Absence_Records ar ON ar.Personnel_Reference_ID = pr.Personnel_Identifier\n    LEFT JOIN Organizational_Units ou ON ou.Unit_Identifier = rd.Owning_Organization_ID\n    -- Manager lookup\n    LEFT JOIN Workers w_mgr ON w_mgr.Employee_ID = w.Manager_ID\n    LEFT JOIN Workplace_Sites ws_mgr ON ws_mgr.Site_Identifier = w_mgr.Location_ID\n    LEFT JOIN Remuneration_Records mgr_rr ON mgr_rr.Personnel_Reference_ID = w_mgr.Worker_ID\n;",
+      "spark_sql": "CREATE OR REPLACE VIEW Person AS\nSELECT\n    pr.Staff_Number AS EmployeeId,\n    w.Work_Email AS PersonId,\n    w_mgr.Work_Email AS ManagerId,\n    rd.Position_Reference_Number AS PositionId,\n    rd.Activation_Date AS EffectiveDate,\n    pr.Commencement_Date AS HireDate,\n    CASE WHEN rd.Mission_Critical_Flag = TRUE THEN 'Y' ELSE 'N' END AS SupervisorIndicator,\n    pr.Engagement_Type AS EmploymentType,\n    pr.Professional_Title AS EmployeeProfession,\n    pr.Current_Status AS CurrentEmploymentStatus,\n    ws.Nation_Code AS CountryOrRegion,\n    ws.Administrative_Region AS RegionSummary,\n    ws.Municipality AS CitySummary,\n    w.First_Name AS FirstName,\n    CAST(NULL AS STRING) AS MiddleName,\n    w.Last_Name AS LastName,\n    CONCAT(w.First_Name, ' ', w.Last_Name) AS FullName,\n    ws.Municipality AS AssignedOfficeCity,\n    ws.Administrative_Region AS CompanyOfficeState,\n    w.Job_Title AS EmployeeJobTitle,\n    w.Department AS FunctionType,\n    rr.Pay_Scale_Level AS StockLevel,\n    pr.Commencement_Date AS WorkAnniversaryDate,\n    rr.Payment_Currency AS PayScaleArea,\n    rr.Adjustment_Rationale AS ReasonForChangeCode,\n    ar.Duration_In_Days AS ExpectedInOfficeDays,\n    ar.Duration_In_Days AS ApprovedInOfficeDays,\n    ws.Facility_Category AS WorkSiteDesignation,\n    CASE WHEN rr.Equity_Grant_Value < mgr_rr.Equity_Grant_Value THEN 'Y' ELSE 'N' END AS StockLevelCompressionInd,\n    -- OrgDepth: count segments in Unit_Reference_Code by delimiter (Spark: size(split(.,'.')))\n    CASE WHEN ou.Unit_Reference_Code IS NOT NULL THEN size(split(ou.Unit_Reference_Code, '.')) ELSE 1 END AS OrgDepth,\n    -- SameCountryAsManager: 'Y' if employee and manager Location_ID have same Nation_Code, else 'N'.\n    CASE WHEN ws.Nation_Code = ws_mgr.Nation_Code THEN 'Y' ELSE 'N' END AS SameCountryAsManager,\n    -- InvoluntaryManagerChanges: count distinct Authorizing_Manager_ID in Absence_Records for this employee\n    (\n      SELECT COUNT(DISTINCT ar2.Authorizing_Manager_ID)\n      FROM Absence_Records ar2\n      WHERE ar2.Personnel_Reference_ID = pr.Personnel_Identifier\n    ) AS InvoluntaryManagerChanges,\n    ws.Municipality AS MetroAreaCluster,\n    CASE WHEN ws.Operational_Status = FALSE THEN 'Y' ELSE 'N' END AS WorksiteExceptionGranted,\n    CASE WHEN lower(pr.Working_Schedule) LIKE '%flexible%' THEN 'Y' ELSE 'N' END AS FlexibleWorkGuidanceApplicable\nFROM\n    Personnel_Records pr\n    LEFT JOIN Workers w ON w.Employee_ID = pr.Staff_Number\n    LEFT JOIN Role_Definitions rd ON rd.Incumbent_Worker_ID = w.Worker_ID\n    LEFT JOIN Workplace_Sites ws ON ws.Site_Identifier = pr.Workplace_Location_ID\n    LEFT JOIN Remuneration_Records rr ON rr.Personnel_Reference_ID = pr.Personnel_Identifier\n    LEFT JOIN Absence_Records ar ON ar.Personnel_Reference_ID = pr.Personnel_Identifier\n    LEFT JOIN Organizational_Units ou ON ou.Unit_Identifier = rd.Owning_Organization_ID\n    -- Manager lookup\n    LEFT JOIN Workers w_mgr ON w_mgr.Employee_ID = w.Manager_ID\n    LEFT JOIN Workplace_Sites ws_mgr ON ws_mgr.Site_Identifier = w_mgr.Location_ID\n    LEFT JOIN Remuneration_Records mgr_rr ON mgr_rr.Personnel_Reference_ID = w_mgr.Worker_ID\n"
+    },
+    {
+      "table": "WorkAssignment",
+      "preview_sql": "CREATE OR REPLACE VIEW WorkAssignment AS\nSELECT\n  rd.Role_Identifier AS AssignmentId,\n  w.Employee_ID AS EmployeeId,\n  ou.Organizational_Unit_ID AS OrgUnitId,\n  CAST(\n    CASE\n      WHEN rd.Schedule_Classification LIKE '%F/T%' THEN 5\n      WHEN rd.Schedule_Classification LIKE '%P/T%' THEN 2.5\n      WHEN rd.Schedule_Classification ~ '[0-9]' THEN CAST(REGEXP_REPLACE(rd.Schedule_Classification, '[^0-9.]', '', 'g') AS DECIMAL)\n      ELSE 0\n    END\n  AS DECIMAL) AS WeeklyBadgeOnsiteDays,\n  ws.Facility_Designation AS WorksiteDesignation\nFROM Role_Definitions rd\nINNER JOIN Workers w ON rd.Incumbent_Worker_ID = w.Worker_ID\nINNER JOIN Organizational_Units ou ON rd.Owning_Organization_ID = ou.Organizational_Unit_ID\nLEFT JOIN Workplace_Sites ws ON rd.Assignment_Location_ID = ws.Site_Identifier;",
+      "spark_sql": "CREATE OR REPLACE VIEW WorkAssignment AS\nSELECT\n  rd.Role_Identifier AS AssignmentId,\n  w.Employee_ID AS EmployeeId,\n  ou.Organizational_Unit_ID AS OrgUnitId,\n  CAST(\n    CASE\n      WHEN rd.Schedule_Classification LIKE '%F/T%' THEN 5\n      WHEN rd.Schedule_Classification LIKE '%P/T%' THEN 2.5\n      WHEN rd.Schedule_Classification RLIKE '[0-9]' THEN CAST(regexp_replace(rd.Schedule_Classification, '[^0-9.]', '') AS DECIMAL)\n      ELSE 0\n    END\n  AS DECIMAL) AS WeeklyBadgeOnsiteDays,\n  ws.Facility_Designation AS WorksiteDesignation\nFROM Role_Definitions rd\nINNER JOIN Workers w ON rd.Incumbent_Worker_ID = w.Worker_ID\nINNER JOIN Organizational_Units ou ON rd.Owning_Organization_ID = ou.Organizational_Unit_ID\nLEFT JOIN Workplace_Sites ws ON rd.Assignment_Location_ID = ws.Site_Identifier"
+    }
+  ],
+  "tables_build_order": [
+    "OrgHierarchy",
+    "Position",
+    "Person",
+    "WorkAssignment"
+  ],
+  "savedAt": "2026-03-06T11:36:42.983Z"
+}
