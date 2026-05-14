@@ -80,3 +80,39 @@ You can also install directly from a Git URL using **Chat: Install Plugin From S
 
 For more on managing, updating, and disabling plugins, see the official VS Code docs: <https://code.visualstudio.com/docs/copilot/customization/agent-plugins#_configure-plugin-marketplaces>.
 
+---
+
+## Troubleshooting
+
+### A new or updated plugin doesn't appear after the marketplace was updated
+
+VS Code's **Agent Plugins** marketplace clones each repository to a local cache the first time it's added, but the **refresh button does not pull updates** from the remote. As a result, newly added plugins (or version bumps) in a marketplace you've already added may not show up. The fix is to delete the cached clone and let VS Code re-clone it.
+
+The cache lives at:
+
+| OS                  | Path                                                                            |
+| ------------------- | ------------------------------------------------------------------------------- |
+| **Windows**         | `%USERPROFILE%\.vscode\agent-plugins\github.com\<owner>\<repo>`                 |
+| **macOS / Linux**   | `~/.vscode/agent-plugins/github.com/<owner>/<repo>`                             |
+
+For this repo, replace `<owner>/<repo>` with `raaravap_microsoft/agentic-workbench`.
+
+#### Windows (PowerShell)
+
+```pwsh
+Remove-Item "$env:USERPROFILE\.vscode\agent-plugins\github.com\raaravap_microsoft\agentic-workbench" -Recurse -Force
+```
+
+#### macOS / Linux (bash/zsh)
+
+```bash
+rm -rf ~/.vscode/agent-plugins/github.com/raaravap_microsoft/agentic-workbench
+```
+
+Then in VS Code:
+
+1. Run **Developer: Reload Window** from the Command Palette.
+2. Open the Extensions view, filter with `@agentPlugins`, and the new/updated plugin should appear.
+
+> **Tip for active development:** if you're authoring or frequently editing plugins in this repo, skip the marketplace cache entirely. Clone the repo locally and register the plugin folders directly via [`chat.pluginLocations`](https://code.visualstudio.com/docs/copilot/customization/agent-plugins#_use-local-plugins) (see [Option 1](#option-1--clone-and-register-as-local-plugins-recommended)). Local plugins are read straight from disk on every reload — no clone, no cache, no refresh dance.
+
