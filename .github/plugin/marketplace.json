@@ -20,6 +20,18 @@
       },
       "category": "ai",
       "keywords": ["llm", "openai", "tokens", "tiktoken", "cost", "pricing"]
+    },
+    {
+      "name": "cost-estimators",
+      "source": "cost-estimators",
+      "description": "Cost estimation toolkit for AI workloads — estimate OpenAI prompt token costs across models and Microsoft Fabric Data Agent CU consumption with SKU recommendations.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Raja Aravapalli",
+        "email": "Raja.Aravapalli@microsoft.com"
+      },
+      "category": "ai",
+      "keywords": ["cost", "pricing", "llm", "openai", "tokens", "tiktoken", "fabric", "fda","data-agent", "cu", "sku"]
     }
   ]
 }

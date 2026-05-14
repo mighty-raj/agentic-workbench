@@ -17,6 +17,7 @@ The [`plugins/`](plugins/) directory contains self-contained VS Code Copilot plu
 | Plugin | Description |
 | --- | --- |
 | [llm-cost-estimator](plugins/llm-cost-estimator/) | Estimate input/output token cost of prompts across OpenAI models using `tiktoken` and live pricing from developers.openai.com. Ships the `openai-models-cost-estimator` skill and the `llm-prompt-cost` agent. |
+| [cost-estimators](plugins/cost-estimators/) | Cost estimation toolkit for AI workloads. Bundles the `openai-models-cost-estimator` and `fda-cost-estimation-skill` skills with the `llm-prompt-cost` and `fda-cost-agent` agents to estimate OpenAI prompt token costs and Microsoft Fabric Data Agent CU consumption (with SKU recommendations). |
 
 ## Install plugins in VS Code
 
@@ -47,7 +48,8 @@ These plugins follow the [VS Code agent plugin](https://code.visualstudio.com/do
    ```jsonc
    // settings.json
    "chat.pluginLocations": {
-     "C:/path/to/agentic-workbench/plugins/llm-cost-estimator": true
+     "C:/path/to/agentic-workbench/plugins/llm-cost-estimator": true,
+     "C:/path/to/agentic-workbench/plugins/cost-estimators": true
    }
    ```
 
